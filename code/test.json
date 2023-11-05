@@ -1,0 +1,32 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Example Question",
+            "type": "multiple_choice",
+            "options": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "correct_answer": "a",
+            "whyCorrectAnswer": "A because ......",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "Example Question",
+            "type": "multiple_choice",
+            "options": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "C because ......",
+            "difficulty": 5
+        }
+    ]
+}

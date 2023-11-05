@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "A quadratic equation is represented by y = -1/2x^2 - 4x - 3. Which of the following linear equations, when combined with the given equation, forms a system of equations whose solution set includes the points (4, -8) and (-2, 2)?",
+            "type": "multiple_choice",
+            "options": [
+                "4x + 2y = -3",
+                "2x - y = 3",
+                "3x + y = -4",
+                "x - 2y = 4"
+            ],
+            "correct_answer": "3x + y = -4",
+            "whyCorrectAnswer": "Substituting the given points into the options, only '3x + y = -4' satisfies both points",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "Consider the following system of equations: y = ax + b, y = (x + 2)(x - k), where a, b and k are constants. If the solutions to this system of equations are points (-1, 1) and (2, -4), what is the value of k?",
+            "type": "multiple_choice",
+            "options": [
+                "4",
+                "-2",
+                "3",
+                "2"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "Plugging in the solution points into the equation, we find that k=4 balances the equations.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "Given the quadratic equation y = 1/2x^2 + 5x + 7, which of the following linear equations, when paired with this quadratic equation, form a system of equations whose solutions include the points (2, 9) and (-3, -6)?",
+            "type": "multiple_choice",
+            "options": [
+                "2x + y = 11",
+                "x - 2y = 2",
+                "y = 3x + 2",
+                "3x + 2y = 1"
+            ],
+            "correct_answer": "2x + y = 11",
+            "whyCorrectAnswer": "Substituting the given points into the options, only '2x + y = 11' meets both points.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "A quadratic equation is given by y = (-1/3)x^2 - 3x - 4. Which of the following linear equations, when graphed with this equation, form a system of equations whose solutions are the points (-2, 1) and (3, 5)?",
+            "type": "multiple_choice",
+            "options": [
+                "x + y = -1",
+                "2x - y = -4",
+                "x + 2y = 3",
+                "3x - y = 2"
+            ],
+            "correct_answer": "x + 2y = 3",
+            "whyCorrectAnswer": "When both points are inserted into 'x + 2y = 3', the equation is valid, making this the correct answer.",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "Consider the following system of equations: y = cx + d, and y = (x + 3)(x - k) where c, d, and k are constants. If the solutions to the system are the points (-2, 1) and (4, -5), what is the value of k?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "-1",
+                "-2",
+                "-3"
+            ],
+            "correct_answer": "-1",
+            "whyCorrectAnswer": "When we substitute for x in the equation, we find that only k = -1 balances the equations for both points.",
+            "difficulty": 5
+        },
+        {
+            "id": "6",
+            "question": "Given the quadratic equation y = 3/4x^2 + 6x + 9, which of the following linear equations, when combined with this quadratic equation, forms a system of equations whose solutions includes the points (2, -6) and (-3, 3)?",
+            "type": "multiple_choice",
+            "options": [
+                "3x + 2y = -5",
+                "2x - y = 4",
+                "y = 2x - 3",
+                "x + 2y = 5"
+            ],
+            "correct_answer": "3x + 2y = -5",
+            "whyCorrectAnswer": "Only the linear equation '3x + 2y = -5', when both points are substituted, meets both points.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "A quadratic equation is given by y = (2/5)x^2 - 2x + 1. Which of the following equations could be paired with the graphed equation to create a system of equations whose solution set is comprised of the points (0, 4) and (-3, -2)?",
+            "type": "multiple_choice",
+            "options": [
+                "y = x + 4",
+                "y = -x - 4",
+                "y = 2x + 4",
+                "y = -2x + 4"
+            ],
+            "correct_answer": "y = x + 4",
+            "whyCorrectAnswer": "Plugging in the points into the equation, we find that y = x + 4 satisfies both points.",
+            "difficulty": 4
+        },
+        {
+            "id": "8",
+            "question": "Consider the following system of equations: y = 3x + 5, y = (x - 2)(x + k) where k is a constant. If the solutions to this system of equations are the points (1,8) and (-4,-7), what is the value of k?",
+            "type": "multiple_choice",
+            "options": [
+                "-1",
+                "1",
+                "-3",
+                "3"
+            ],
+            "correct_answer": "-3",
+            "whyCorrectAnswer": "Substituting the solution points into the equation, we find only k=-3 gives us these solutions.",
+            "difficulty": 5
+        },
+        {
+            "id": "9",
+            "question": "A linear equation is given by y = 3x + 4. Which of the following quadratic equations, when combined with this equation, form a system of equations whose solutions include the points (-2, -2) and (3, 7)?",
+            "type": "multiple_choice",
+            "options": [
+                "y = x^2 - 3",
+                "y = x^2 + 4",
+                "y = x^2 - 4",
+                "y = 2x^2 + 3"
+            ],
+            "correct_answer": "y = x^2 - 3",
+            "whyCorrectAnswer": "Only the quadratic equation 'y = x^2 - 3', when the points are substituted, satisfies both points.",
+            "difficulty": 5
+        },
+        {
+            "id": "10",
+            "question": "Given the quadratic equation y = 2x^2 - 3x - 4, which of the following linear equations could be paired with the graphed equation to create a system of equations whose solution set is comprised of the points (2,-6) and (-3, 2)?",
+            "type": "multiple_choice",
+            "options": [
+                "y = -2x + 4",
+                "y = 2x - 4",
+                "y = x - 2",
+                "y = -x + 2"
+            ],
+            "correct_answer": "y = -2x + 4",
+            "whyCorrectAnswer": "Substituting the given points into the options, only 'y = -2x + 4' suits both points.",
+            "difficulty": 4
+        },
+        {
+            "id": "11",
+            "question": "A quadratic equation is given by y = -4x^2 + 2x + 1. Which of the following linear equations could be paired with the graphed equation to create a system of equations whose solution set is comprised of the points (-1, 3) and (2, -7)?",
+            "type": "multiple_choice",
+            "options": [
+                "y = 2x + 3",
+                "y = -2x - 3",
+                "y = 2x - 3",
+                "y = -2x + 3"
+            ],
+            "correct_answer": "y = 2x + 3",
+            "whyCorrectAnswer": "Substituting the given points into the equation 'y = 2x + 3' suits both points.",
+            "difficulty": 4
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "y = -2x^2 + 3x - 7; If the equation is graphed in the xy-plane, which of the following characteristics of the graph is displayed as a constant or coefficient in the equation? ",
+            "type": "multiple_choice",
+            "options": [
+                "x-intercept(s)",
+                "y-intercept",
+                "x-coordinate of the vertex",
+                "Coefficient of x"
+            ],
+            "correct_answer": "y-intercept",
+            "whyCorrectAnswer": "The constant in the equation, -7, represents the y-intercept.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "y= (x\u22123)^2 + 9; If the equation is graphed in the xy-plane, which of the following characteristics of the graph is displayed as a constant in the equation?",
+            "type": "multiple_choice",
+            "options": [
+                "x-intercept(s)",
+                "y-intercept",
+                "x-coordinate of the vertex",
+                "y-coordinate of the vertex"
+            ],
+            "correct_answer": "x-coordinate of the vertex",
+            "whyCorrectAnswer": "The x-value in the quantity to be squared, (x-3), corresponds to the x-coordinate of the vertex.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "y = -3(x - 4)^2 + 10; If the equation is graphed in the xy-plane, what does the number 10 represent?",
+            "type": "multiple_choice",
+            "options": [
+                "x-intercept(s)",
+                "y-intercept",
+                "Highest point on the graph",
+                "x-coordinate of the nucleus"
+            ],
+            "correct_answer": "Highest point on the graph",
+            "whyCorrectAnswer": "The number 10, being the constant added at the end of the equation, represents the highest point (vertex) on the graph.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "y = (x + 3)^2 - 10; If the equation is graphed in the xy-plane, which property does -3 represent?",
+            "type": "multiple_choice",
+            "options": [
+                "x-intercept(s)",
+                "y-intercept",
+                "x-coordinate of the vertex",
+                "y-coordinate of the vertex"
+            ],
+            "correct_answer": "x-coordinate of the vertex",
+            "whyCorrectAnswer": "-3 is the value of x in the vertex of the parabola since it's found in the quantity to be squared, (x+3).",
+            "difficulty": 5
+        },
+        {
+            "id": "5",
+            "question": "y = - (x - 4)^2 +12; If the equation is graphed in the xy-plane, what does y = 12 represent?",
+            "type": "multiple_choice",
+            "options": [
+                "x-intercept(s)",
+                "y-intercept",
+                "x-coordinate of the vertex",
+                "Highest point of the graph"
+            ],
+            "correct_answer": "Highest point of the graph",
+            "whyCorrectAnswer": "The number 12, being the y-value in the vertex of the parabola, represents the highest point (vertex) on the graph.",
+            "difficulty": 5
+        },
+        {
+            "id": "6",
+            "question": "y = 3(x-5)^2 + 8; If the equation is graphed in the xy-plane, what does the coefficient 3 signify?",
+            "type": "multiple_choice",
+            "options": [
+                "y-intercept",
+                "The parabola's vertical stretch",
+                "x-coordinate of the vertex",
+                "The rise/run slope"
+            ],
+            "correct_answer": "The parabola's vertical stretch",
+            "whyCorrectAnswer": "The coefficient of the squared term, 3, is associated with the vertical stretch of the graph, resulting in a narrower parabola.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "What is the y-intercept of the function y=2x^2 +3x -4?",
+            "type": "multiple_choice",
+            "options": [
+                "-2",
+                "0",
+                "4",
+                "-4"
+            ],
+            "correct_answer": "-4",
+            "whyCorrectAnswer": "The constant term of the quadratic function, -4, is the y-intercept.",
+            "difficulty": 1
+        },
+        {
+            "id": "8",
+            "question": "For the equation y = (x-1)^2 - 2, which value corresponds to the x-coordinate of the vertex?",
+            "type": "multiple_choice",
+            "options": [
+                "-1",
+                "1",
+                "0",
+                "-2"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "The x-value in the vertex of the parabola, 'x - 1', represents the x-coordinate of the vertex, so that's 1.",
+            "difficulty": 2
+        },
+        {
+            "id": "9",
+            "question": "If the function y = a(x - h)^2 + k is graphed, what does variable 'k' represent?",
+            "type": "multiple_choice",
+            "options": [
+                "y-intercept",
+                "x-coordinate of the vertex",
+                "y-coordinate of the vertex",
+                "The parabola's vertical stretch"
+            ],
+            "correct_answer": "y-coordinate of the vertex",
+            "whyCorrectAnswer": "In the standard form of a quadratic function, y = a(x-h)^2 + k, k corresponds to y-coordinate of the parabola's vertex",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "Which parameter would affect the direction of opening of a parabolic function when graphed?",
+            "type": "multiple_choice",
+            "options": [
+                "'a' in the equation y = a(x - h)^2 + k",
+                "'h' in the equation y = a(x - h)^2 + k",
+                "'k' in the equation y = a(x - h)^2 + k",
+                "None of the above"
+            ],
+            "correct_answer": "'a' in the equation y = a(x - h)^2 + k",
+            "whyCorrectAnswer": "If 'a' is positive, the parabola opens upwards and if 'a' is negative, the parabola opens downwards.",
+            "difficulty": 2
+        },
+        {
+            "id": "11",
+            "question": "How does the value of 'a' in the equation y = a(x - h)^2 + k affect the graph of the parabola?",
+            "type": "multiple_choice",
+            "options": [
+                "Affects the direction of the parabola",
+                "Shifts the vertex of the parabola",
+                "Affects the stretch/shrink of the parabola",
+                "Both Affects the direction of the parabola and Affects the stretch/shrink of the parabola"
+            ],
+            "correct_answer": "Both Affects the direction of the parabola and Affects the stretch/shrink of the parabola",
+            "whyCorrectAnswer": "The value of 'a' influences both the direction and the degree of stretch or shrink of the parabola. If 'a' is negative, the parabola opens downwards. If 'a' is greater than 1 in magnitude, the graph stretches, and if 'a' is between -1 and 1, the graph shrinks.",
+            "difficulty": 5
+        }
+    ]
+}

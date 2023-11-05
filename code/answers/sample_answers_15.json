@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "4p/(3t) - 9p/(8t). Which of the following expressions is equivalent to the expression above for t \u2260 0?",
+            "type": "multiple_choice",
+            "options": [
+                "p/(24t)",
+                "-p/(24t)",
+                "5p/(24t)",
+                "-5p/(24t)"
+            ],
+            "correct_answer": "-p/(24t)",
+            "whyCorrectAnswer": "Subtracting the two fractions results in -p/(24t).",
+            "difficulty": 4
+        },
+        {
+            "id": "2",
+            "question": "5/(16z) + z/16. Which expression is equivalent to the above sum for z \u2260 0 ?",
+            "type": "multiple_choice",
+            "options": [
+                "(z^2+5)/16",
+                "(z^2+5)/32",
+                "(z^2-5)/32",
+                "16z"
+            ],
+            "correct_answer": "(z^2+5)/16",
+            "whyCorrectAnswer": "Addition of the two terms results in (z^2+5)/16",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "(10q/30r+28 - 5q+12/6r+9), Which expression is equivalent to the above difference?",
+            "type": "multiple_choice",
+            "options": [
+                "(10q^2 - 28q + 12) / (30r + 18)",
+                "(-18q + 12) / (30r + 18)",
+                "(58q + 12) / (30r + 28)",
+                "(-18q - 84) / (30r + 28)"
+            ],
+            "correct_answer": "(-18q + 12) / (30r + 18)",
+            "whyCorrectAnswer": "Subtraction of two fractions results in (-18q + 12) / (30r + 18)",
+            "difficulty": 5
+        },
+        {
+            "id": "4",
+            "question": "x-6/9 + 6-x/6 is simplified to which expression for all x \u2260 6?",
+            "type": "multiple_choice",
+            "options": [
+                "14/(x-6)",
+                "14/(6-x)",
+                "5/(x-6)",
+                "5/(6-x)"
+            ],
+            "correct_answer": "5/(x-6)",
+            "whyCorrectAnswer": "Subtracting the two terms results in 5/(x-6)",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "x^3/(x-3) + 6/(3-x) is simplified to which expression for all x \u2260 3?",
+            "type": "multiple_choice",
+            "options": [
+                "x+3",
+                "x-3",
+                "(x^3-6)/(3-x)",
+                "(x^3+6)/(x-3)"
+            ],
+            "correct_answer": "(x^3-6)/(3-x)",
+            "whyCorrectAnswer": "Simplification of expression results in (x^3-6)/(3-x)",
+            "difficulty": 5
+        },
+        {
+            "id": "6",
+            "question": "What is equivalent to 5y/12b - 4y/8b for b \u2260 0 ?",
+            "type": "multiple_choice",
+            "options": [
+                "y/(48b)",
+                "-y/(48b)",
+                "6y/(48b)",
+                "-6y/(48b)"
+            ],
+            "correct_answer": "y/(48b)",
+            "whyCorrectAnswer": "Subtracting the two fractions results in y/(48b).",
+            "difficulty": 5
+        },
+        {
+            "id": "7",
+            "question": "7/(20r) + r/20. Which expression is equivalent to the above sum for r \u2260 0 ?",
+            "type": "multiple_choice",
+            "options": [
+                "(r^2+7)/20",
+                "(r^2+7)/40",
+                "(r^2-7)/20",
+                "20r"
+            ],
+            "correct_answer": "(r^2+7)/20",
+            "whyCorrectAnswer": "Adding the two terms results in (r^2+7)/20",
+            "difficulty": 5
+        },
+        {
+            "id": "8",
+            "question": "(12d/36n+33 - 6d+15/9n+14), Which expression is equivalent to the above difference?",
+            "type": "multiple_choice",
+            "options": [
+                "(12d^2 - 33d + 15) / (36n + 21)",
+                "(-21d + 15) / (36n + 21)",
+                "(78d + 15) / (36n + 33)",
+                "(-21d - 99) / (36n + 33)"
+            ],
+            "correct_answer": "(-21d + 15) / (36n + 21)",
+            "whyCorrectAnswer": "Subtraction of two fractions results in (-21d + 15) / (36n + 21)",
+            "difficulty": 5
+        },
+        {
+            "id": "9",
+            "question": "q-8/12 + 8-q/9 is simplified to which expression for all q \u2260 8?",
+            "type": "multiple_choice",
+            "options": [
+                "17/(q-8)",
+                "17/(8-q)",
+                "7/(q-8)",
+                "7/(8-q)"
+            ],
+            "correct_answer": "7/(q-8)",
+            "whyCorrectAnswer": "Subtraction of the two terms results in 7/(q-8)",
+            "difficulty": 5
+        },
+        {
+            "id": "10",
+            "question": "q^4/(q-4) + 8/(4-q) is simplified to which expression for all q \u2260 4?",
+            "type": "multiple_choice",
+            "options": [
+                "q+4",
+                "q-4",
+                "(q^4-8)/(4-q)",
+                "(q^4+8)/(q-4)"
+            ],
+            "correct_answer": "(q^4-8)/(4-q)",
+            "whyCorrectAnswer": "Simplification of expression results in (q^4-8)/(4-q)",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "6m/(4a) - 8m/(7a). Which of the following expressions is equivalent to the expression above for a \u2260 0?",
+            "type": "multiple_choice",
+            "options": [
+                "m/(28a)",
+                "-m/(28a)",
+                "5m/(28a)",
+                "-5m/(28a)"
+            ],
+            "correct_answer": "m/(28a)",
+            "whyCorrectAnswer": "Subtracting the two fractions results in m/(28a).",
+            "difficulty": 4
+        }
+    ]
+}

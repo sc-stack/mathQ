@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "D = -200t + 9000. Harry took a loan from the bank. Each month, he pays a fixed amount of money back to the bank. The equation above shows the remaining amount of the loan, D, measured in dollars, after t months. How much does Harry pay back to the bank each month, in dollars?",
+            "type": "multiple_choice",
+            "options": [
+                "100",
+                "200",
+                "300",
+                "400"
+            ],
+            "correct_answer": "200",
+            "whyCorrectAnswer": "The coefficient in front of 't' is -200, reflecting the monthly decrease in the loan amount.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "W = 32 - 0.05n; Andrei has a glass tank. First, he wants to put some marbles in it, all of the same volume. Then, he wants to fill the tank with water until it's completely full. The equation shown above describes the volume of water, W, measured in liters, that Andrei should use when there are n marbles. What is the volume of the glass tank, in liters?",
+            "type": "multiple_choice",
+            "options": [
+                "30",
+                "32",
+                "34",
+                "35"
+            ],
+            "correct_answer": "32",
+            "whyCorrectAnswer": "The y-intercept of this function is 32, indicating the volume of the tank when there are no marbles in it.",
+            "difficulty": 3
+        },
+        {
+            "id": "3",
+            "question": "R = 42 - 0.7t; Quinn returned home one summer's day to find it extremely hot. He turned the air conditioner on, and the room's temperature began decreasing at a constant rate. The equation shown above gives the room's temperature, R, in degrees Celsius, t minutes after Quinn turned on the air conditioner. What was the room's temperature, in degrees Celsius, when Quinn returned home?",
+            "type": "multiple_choice",
+            "options": [
+                "41.3",
+                "42",
+                "42.7",
+                "43"
+            ],
+            "correct_answer": "42",
+            "whyCorrectAnswer": "The y-intercept of this function corresponds to the temperature when t=0, which is when Quinn returned home.",
+            "difficulty": 1
+        },
+        {
+            "id": "4",
+            "question": "D = -38t + 220; Rachel is driving a race car at a constant speed on a closed course. The formula shown above describes the remaining distance, D, measured in meters, that Rachel has to travel after t seconds. What is Rachel's speed in meters per second?",
+            "type": "multiple_choice",
+            "options": [
+                "38",
+                "39",
+                "40",
+                "41"
+            ],
+            "correct_answer": "38",
+            "whyCorrectAnswer": "Rachel's speed is given by the coefficient of 't', which is -38 m/s. The negative sign indicates the decreasing distance as time increases.",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "S = 40,000 + 500c; Caden started a new job selling dental chairs. He earns a base salary plus a commission for every chair he sells. The equation above gives Caden's annual salary, S, in dollars, after selling c dental chairs. Based on the equation above, what is Caden's base salary?",
+            "type": "multiple_choice",
+            "options": [
+                "$35,000",
+                "$37,500",
+                "$40,000",
+                "$42,500"
+            ],
+            "correct_answer": "$40,000",
+            "whyCorrectAnswer": "Caden's base salary corresponds to the y-intercept in this equation, which is $40,000.",
+            "difficulty": 1
+        },
+        {
+            "id": "6",
+            "question": "F = -2x + 20; Amelia is saving for a new bike that costs $20. Each week, she spends some money on movie tickets. The equation describes the money left, F, after x weeks. How much does she spend on movie tickets each week?",
+            "type": "multiple_choice",
+            "options": [
+                "$1",
+                "$2",
+                "$3",
+                "$4"
+            ],
+            "correct_answer": "$2",
+            "whyCorrectAnswer": "The coefficient in front of 'x' is -2, reflecting the weekly decrease in the savings due to movie tickets.",
+            "difficulty": 2
+        },
+        {
+            "id": "7",
+            "question": "H = 30 - 3d; Diana is throwing a dart from the height of 30 inches. Each inch ahead, the dart falls by a certain height. The equation describes the height, H, of the dart after d inches. What is the initial height from which Diana throws the dart?",
+            "type": "multiple_choice",
+            "options": [
+                "27",
+                "28",
+                "29",
+                "30"
+            ],
+            "correct_answer": "30",
+            "whyCorrectAnswer": "The y-intercept of this function corresponds to the initial height when d=0.",
+            "difficulty": 2
+        },
+        {
+            "id": "8",
+            "question": "L = 90 - 10t; Simon is travelling from city A to B which is 90 km away. The equation describes the remaining distance, L, after t hours. What is the distance between city A and B?",
+            "type": "multiple_choice",
+            "options": [
+                "80 km",
+                "85 km",
+                "90 km",
+                "95 km"
+            ],
+            "correct_answer": "90 km",
+            "whyCorrectAnswer": "Distance is given by the y-intercept of the function when t=0, which means it is 90 km.",
+            "difficulty": 1
+        },
+        {
+            "id": "9",
+            "question": "P = 2000 + 100s; Walter starts a part-time job where he earns a fixed salary of $2000 and a bonus for every sale he make. The equation describes the total payment, P, after s sales. What is Walter's salary without the bonus?",
+            "type": "multiple_choice",
+            "options": [
+                "$1500",
+                "$1750",
+                "$2000",
+                "$2250"
+            ],
+            "correct_answer": "$2000",
+            "whyCorrectAnswer": "Walter's base salary is given by the y-intercept of this equation, which is $2000.",
+            "difficulty": 1
+        },
+        {
+            "id": "10",
+            "question": "E = 500 - 25p; Anna is creating an event where she wants to invite a certain number of people. Every extra person decreases the savings by a certain amount. The equation describes the remaining amount of money, E, after p people. What is the initial amount she reserved for the event?",
+            "type": "multiple_choice",
+            "options": [
+                "$475",
+                "$485",
+                "$495",
+                "$500"
+            ],
+            "correct_answer": "$500",
+            "whyCorrectAnswer": "Amount is given by the y-intercept of the function when p=0, which is $500.",
+            "difficulty": 2
+        },
+        {
+            "id": "11",
+            "question": "I = 50 - 2m; Bob has a box full of lego bricks. Each measure of the box reduces the number of lego bricks by a certain amount. The equation describes the remaining number of bricks, I, after m measures. What is the total number of lego bricks in the box?",
+            "type": "multiple_choice",
+            "options": [
+                "45",
+                "47",
+                "49",
+                "50"
+            ],
+            "correct_answer": "50",
+            "whyCorrectAnswer": "The number of bricks is given by the y-intercept when m=0, which is 50.",
+            "difficulty": 3
+        }
+    ]
+}

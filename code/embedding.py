@@ -9,15 +9,27 @@ import os
 openai.api_key = os.getenv('OpenAI_API_Key')
 
 courses = ['18.01', '18.02', '18.03', '6.042', '18.05', '18.06', 'COMS3251']
+SAT_MATH_sections = ['SAT_HEART_OF_ALGEBRA']
 MATH_sections = ['MATH_Algebra', 'MATH_Counting_&_Probability', 'MATH_Intermediate_Algebra', 
                  'MATH_Number_Theory', 'MATH_Prealgebra', 'MATH_Precalculus']
 image_labels = {'18.01':'r.', '18.02':'g.', '18.03':'b.', '18.05':'mx', '18.06':'k+', '6.042':'cx', 'COMS3251':'y+'}
+MATH_image_labels = {
+    'MATH_Algebra': 'ro',  # red circle
+    'MATH_Counting_&_Probability': 'gx',  # green x
+    'MATH_Intermediate_Algebra': 'b+',  # blue plus
+    'MATH_Number_Theory': 'm.',  # magenta point
+    'MATH_Prealgebra': 'c*',  # cyan star
+    'MATH_Precalculus': 'ys'  # yellow square
+}
+SAT_image_labels = {'SAT_HEART_OF_ALGEBRA':'r.', 'SAT_PASSPORT_TO_ADVANCED_MATH':'g.', 'SAT_ADDITIONAL_TOPICS':'b.'}
 courses_embeddings_location = 'code/course_embeddings.json'
 MATH_embeddings_location = 'code/MATH_embeddings.json'
+SAT_embeddings_location = 'code/SAT_embeddings.json'
 image_location = "UMAP.png"
 embedding_engine = 'text-similarity-babbage-001'
 questions_per_course = 25
 questions_per_MATH_section = 15
+questions_per_SAT_section = 5
 
 def make_embeddings(embedding_engine, embeddings_location, courses, questions_per_course):
     """
@@ -34,7 +46,7 @@ def make_embeddings(embedding_engine, embeddings_location, courses, questions_pe
                 q_num = '0' + str(num)
             else:
                 q_num = str(num)
-            json_location = './Data/' + course.split('_')[0] + '/' + course + '_Question_' + q_num + '.json'
+            json_location = './data/' + course.split('_')[0] + '/' + course + '_Question_' + q_num + '.json'
             with open(json_location, 'r') as f:
                 data = json.load(f)
             raw_question = data['Original question']
@@ -81,7 +93,7 @@ def reduce_via_umap(embeddings, num_dims=2):
     return reduced
 
 def plot_clusters(points, image_loc, questions_per_course=25, show=False, question_labels=False, 
-                  label_font='xx-small', dpi=200, width=9.5, height=6.5, legend_loc=(1, 1.01), right_shift=0.72):
+                  label_font='xx-small', dpi=200, width=9.5, height=6.5, legend_loc=(1, 1.01), right_shift=0.72, courses=courses, labels=image_labels):
     """
     Plots clusters of points. points is assumed to be a n by 2 numpy array.
     Set question_labels to True if you want to see each point labeled with its question number.
@@ -97,9 +109,9 @@ def plot_clusters(points, image_loc, questions_per_course=25, show=False, questi
     for i, course in enumerate(courses):
         plt.scatter(x[i*questions_per_course:(i+1)*questions_per_course], 
                     y[i*questions_per_course:(i+1)*questions_per_course], 
-                    c = image_labels[course][0], 
+                    c = labels[course][0], 
                     label = course, 
-                    marker = image_labels[course][1])
+                    marker = labels[course][1])
         if question_labels:
             for j in range(questions_per_course):
                 plt.annotate(j+1, (x[questions_per_course*i+j], y[questions_per_course*i+j]), fontsize=label_font)
@@ -110,13 +122,21 @@ def plot_clusters(points, image_loc, questions_per_course=25, show=False, questi
         plt.show()
 
 if __name__ == "__main__":
-    #for courses:
-    if not os.path.exists(courses_embeddings_location):
-        make_embeddings(embedding_engine, courses_embeddings_location, courses, questions_per_course)
-    embeddings = get_embeddings(courses_embeddings_location)
+
+
+    if not os.path.exists(SAT_embeddings_location):
+        make_embeddings(embedding_engine, SAT_embeddings_location, SAT_MATH_sections, questions_per_SAT_section)
+
+    embeddings = get_embeddings(SAT_embeddings_location)
     reduced_points = reduce_via_umap(embeddings)
-    plot_clusters(reduced_points, image_location, questions_per_course=questions_per_course, question_labels=True)
+    plot_clusters(reduced_points, image_location, questions_per_course=questions_per_SAT_section, question_labels=True, courses=SAT_MATH_sections, labels=SAT_image_labels)
+    #for courses:
+    # if not os.path.exists(courses_embeddings_location):
+    #     make_embeddings(embedding_engine, courses_embeddings_location, courses, questions_per_course)
+    # embeddings = get_embeddings(courses_embeddings_location)
+    # reduced_points = reduce_via_umap(embeddings)
+    # plot_clusters(reduced_points, image_location, questions_per_course=questions_per_course, question_labels=True)
     
     #for MATH:
-    if not os.path.exists(MATH_embeddings_location):
-        make_embeddings(embedding_engine, MATH_embeddings_location, MATH_sections, questions_per_MATH_section)
+    # if not os.path.exists(MATH_embeddings_location):
+    #     make_embeddings(embedding_engine, MATH_embeddings_location, MATH_sections, questions_per_MATH_section)

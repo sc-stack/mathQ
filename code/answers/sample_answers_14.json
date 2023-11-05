@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "If \u221a(2x) = 5 + \u221a(3x), what is the approximate value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "8.3",
+                "4.5",
+                "3.2",
+                "1.7"
+            ],
+            "correct_answer": "3.2",
+            "whyCorrectAnswer": "Squaring both sides of the equation eliminates the square roots, leading you to solve for x.",
+            "difficulty": 4
+        },
+        {
+            "id": "2",
+            "question": "m - 2 = \u221a(k - m). For the above equation, k is a constant. If m = 2 is one solution to the equation, what is the value of k?",
+            "type": "multiple_choice",
+            "options": [
+                "2",
+                "4",
+                "6",
+                "8"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "Plugging m = 2 into the equation, we get 2 - 2 = \u221a(k - 2) which simplifies to k = 4",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "8y = 16\u221ay. What is the greatest value of y that is a solution to the above equation?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "64/256",
+                "256/64",
+                "8/16"
+            ],
+            "correct_answer": "256/64",
+            "whyCorrectAnswer": "By squaring both sides of the equation and simplifying, we find that y = 256/64 is the only solution.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "z = \u221a(128z). What is the sum of all solutions to the above equation?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "4"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "The solution to the equation is z = 1. Therefore, the sum of all solutions is also 1.",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "\u221ar + 8 = 7 + 5\u221ar. What is the solution to the equation above?",
+            "type": "multiple_choice",
+            "options": [
+                "9",
+                "4",
+                "6",
+                "8"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "Subtracting 5\u221ar and 7 from both sides results in r - 25 = 0. Solving for r gives r = 4.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "\u221a(5x - 7) = 3x - 5. What is the solution to the above equation?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "3",
+            "whyCorrectAnswer": "By squaring both sides, simplifying and rearranging terms one can find that x = 3 is the solution.",
+            "difficulty": 5
+        },
+        {
+            "id": "7",
+            "question": "If 3\u221a(7 - 2y) = 6 - \u221ay, what is the value of y?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "2",
+            "whyCorrectAnswer": "Isolating y terms, squaring both sides, simplifying and solving for y yields y = 2.",
+            "difficulty": 5
+        },
+        {
+            "id": "8",
+            "question": "\u221a(8p + 6) = \u221a(6p + 8). What is the value of p?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "Squaring both sides of the equation and simplifying will result in p = 1.",
+            "difficulty": 4
+        },
+        {
+            "id": "9",
+            "question": "\u221a(7m + 2n) = \u221a(2n + 7m). If m = 1 and n = 2, what is the value of \u221a(7m + 2n)?",
+            "type": "multiple_choice",
+            "options": [
+                "\u221a18",
+                "\u221a16",
+                "\u221a14",
+                "\u221a12"
+            ],
+            "correct_answer": "\u221a18",
+            "whyCorrectAnswer": "Substituting m = 1 and n = 2, we get \u221a18.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "If \u221aa = \u221ab, which of the following is true?",
+            "type": "multiple_choice",
+            "options": [
+                "a < b",
+                "a = b",
+                "a > b",
+                "The relationship cannot be determined from the information given"
+            ],
+            "correct_answer": "a = b",
+            "whyCorrectAnswer": "If \u221aa = \u221ab, squaring both sides leads to a = b.",
+            "difficulty": 1
+        },
+        {
+            "id": "11",
+            "question": "The square root of what number is equal to the number itself?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "-1"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "The square root of 1 is 1, hence it fits the condition.",
+            "difficulty": 2
+        }
+    ]
+}

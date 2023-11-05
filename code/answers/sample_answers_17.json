@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "The polynomial equation P(x)=(x-5)(3x+4)(x+8)^3=0. What are the zeros of the polynomial equation above?",
+            "type": "multiple_choice",
+            "options": [
+                "{-8, 5, -4/3}",
+                "{8, 5, 4/3}",
+                "{5, 8, -4/3}",
+                "-8"
+            ],
+            "correct_answer": "{-8, 5, -4/3}",
+            "whyCorrectAnswer": "By setting P(x)=0 and setting each factored term to 0, we find the solution set as {-8, 5, -4/3}.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "The polynomial function f is defined as f(x) = 2(3x-5)(x+6)(x^2 + 2). What is a zero of function f?",
+            "type": "multiple_choice",
+            "options": [
+                "-6",
+                "5/3",
+                "2",
+                "6"
+            ],
+            "correct_answer": "5/3",
+            "whyCorrectAnswer": "Setting the polynomial equal to zero and finding the root for each factor, we see that x = 5/3 is a solution.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "A polynomial function is defined as q(x) = (x^2 - 5x +3)(x - 2)(x^2 + x - 2). If q(a) = 0 for some real number a, what is the value of a?",
+            "type": "multiple_choice",
+            "options": [
+                "3",
+                "-2",
+                "2",
+                "5"
+            ],
+            "correct_answer": "2",
+            "whyCorrectAnswer": "By setting each factor equal to zero and solving, we find that x = 2 is a solution.",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "The polynomial function h(y) is defined as h(y) = (4y-4)(y-1)(2y+5)^2. How many distinct zeros does h(y) have?",
+            "type": "multiple_choice",
+            "options": [
+                "2",
+                "3",
+                "5",
+                "4"
+            ],
+            "correct_answer": "3",
+            "whyCorrectAnswer": "By looking at each factored term of the polynomial, distinct zeros happen when y = 1, y = 1 and y = -5/2.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "Given the polynomial function f(x) = 2x(8 - x)(x - 2)(x + 3)^2, which of the following is a zero of the function above?",
+            "type": "multiple_choice",
+            "options": [
+                "2",
+                "3",
+                "8",
+                "-3"
+            ],
+            "correct_answer": "-3",
+            "whyCorrectAnswer": "Solving for zeros of the polynomial, we find that -3 is a zero of the function.",
+            "difficulty": 2
+        },
+        {
+            "id": "6",
+            "question": "The polynomial equation P(x)=(2x-3)(3x^2+4x+2)(x^2-4)^2=0. What are the zeros of the polynomial equation above?",
+            "type": "multiple_choice",
+            "options": [
+                "{3/2, -1/2, -2, 2}",
+                "{1.5, 0.5, -2, 2}",
+                "{3/2, -2, 2}",
+                "{1.5, -2, 2}"
+            ],
+            "correct_answer": "{3/2, -1/2, -2, 2}",
+            "whyCorrectAnswer": "Solving each factor equal to zero gives us the zeros 3/2, -1/2, -2, and 2.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "The polynomial equation P(x)=(2x+3)^2(x^2-3x+2)(x^2+4)=0. How many zeros does P(x) have?",
+            "type": "multiple_choice",
+            "options": [
+                "6",
+                "5",
+                "4",
+                "3"
+            ],
+            "correct_answer": "6",
+            "whyCorrectAnswer": "Solving the equation for 0 gives us three real solutions (-3/2, 1, and 2) and two complex solutions from solving x^2+4=0. Hence, we have 5 zeros.",
+            "difficulty": 5
+        },
+        {
+            "id": "8",
+            "question": "The polynomial function is given as f(x)=(x-6)(x+8)(2x^2 - 3x + 1). What is a possible value of x when f(x)= 0?",
+            "type": "multiple_choice",
+            "options": [
+                "6",
+                "-8",
+                "1",
+                "2"
+            ],
+            "correct_answer": "6",
+            "whyCorrectAnswer": "Setting each individual factor in the polynomial equal to zero, we find that 6 is one of the solutions.",
+            "difficulty": 3
+        },
+        {
+            "id": "9",
+            "question": "The polynomial function s(x) is defined as s(x) = (3x^2 +5)(x^2 - 4)(2x - 6)^2. How many distinct zeros does s(x) have?",
+            "type": "multiple_choice",
+            "options": [
+                "5",
+                "4",
+                "3",
+                "2"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "Equating each factor to zero and finding the solutions gives the distinct zeros as -sqrt(5/3), sqrt(5/3), -2, and 3.",
+            "difficulty": 5
+        },
+        {
+            "id": "10",
+            "question": "Given the polynomial equation f(x) = (x^3 - 27)(x^2 - 5x + 4), what is the sum of all it's roots?",
+            "type": "multiple_choice",
+            "options": [
+                "7",
+                "-7",
+                "8",
+                "-8"
+            ],
+            "correct_answer": "8",
+            "whyCorrectAnswer": "Solving for roots of the polynomial, x=3 for (x^3 - 27) and x=1, 4 for (x^2 - 5x + 4). Summing them gives 8.",
+            "difficulty": 4
+        },
+        {
+            "id": "11",
+            "question": "A polynomial function f is defined as f(x) = 4(x^2+4)(x-5)(5x+4). Which of the following is a zero of function f?",
+            "type": "multiple_choice",
+            "options": [
+                "-4/5",
+                "5",
+                "4",
+                "1"
+            ],
+            "correct_answer": "-4/5",
+            "whyCorrectAnswer": "Setting each factor equal to zero and finding the roots gives us the solutions. Hence, x = -4/5 is one of the solutions.",
+            "difficulty": 4
+        }
+    ]
+}

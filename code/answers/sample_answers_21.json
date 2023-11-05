@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Which of the following expressions isolates x in terms of y and z? A) x = (2y + 3z) / 4, B) x = y / (2 + 3z), C) x = (y - 3z) / 2, D) x = 4 / (2y + 3z)",
+            "type": "multiple_choice",
+            "options": [
+                "A) x = (2y + 3z) / 4",
+                "B) x = y / (2 + 3z)",
+                "C) x = (y - 3z) / 2",
+                "D) x = 4 / (2y + 3z)"
+            ],
+            "correct_answer": "C) x = (y - 3z) / 2",
+            "whyCorrectAnswer": "Transposing the given relation and isolating 'x' provides the correct answer.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "Which of the following equations correctly expresses p in terms of q and r? A) p = 5q / 6r, B) p = (5q - r) / 6, C) p = 6 / (5q - r), D) p = 5(q/r) / 6",
+            "type": "multiple_choice",
+            "options": [
+                "A) p = 5q / 6r",
+                "B) p = (5q - r) / 6",
+                "C) p = 6 / (5q - r)",
+                "D) p = 5(q/r) / 6"
+            ],
+            "correct_answer": "B) p = (5q - r) / 6",
+            "whyCorrectAnswer": "Transposing the given relation and isolating 'p' provides the correct answer.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "What equation represents the surface area (A) of a sphere in terms of the radius (r)? A) A = 4\u03c0r^2, B) A = 2\u03c0r^2, C) A = 4/3\u03c0r^3, D) A = 2/3\u03c0r^3",
+            "type": "multiple_choice",
+            "options": [
+                "A) A = 4\u03c0r^2",
+                "B) A = 2\u03c0r^2",
+                "C) A = 4/3\u03c0r^3",
+                "D) A = 2/3\u03c0r^3"
+            ],
+            "correct_answer": "A) A = 4\u03c0r^2",
+            "whyCorrectAnswer": "The formula for the surface area of a sphere is 4\u03c0r^2.",
+            "difficulty": 2
+        },
+        {
+            "id": "4",
+            "question": "Given the equation y = 3x+7, which equation correctly expresses x in terms of y? A) x = (y-7)/3, B) x = 3y+7, C) x = y/3+7, D) x = (3+y)/7",
+            "type": "multiple_choice",
+            "options": [
+                "A) x = (y-7)/3",
+                "B) x = 3y+7",
+                "C) x = y/3+7",
+                "D) x = (3+y)/7"
+            ],
+            "correct_answer": "A) x = (y-7)/3",
+            "whyCorrectAnswer": "By rearranging the initial equation and isolating 'x' we get the correct answer.",
+            "difficulty": 1
+        },
+        {
+            "id": "5",
+            "question": "Which of the following correctly expresses the length of the chord (c) in terms of the radius (r) and the angle (\u03b8 in radians) subtended at the center? A) c = 2r*sin(\u03b8/2), B) c = r*sin(\u03b8), C) c = r*sin(\u03b8/2), D) c = 2r*sin(\u03b8)",
+            "type": "multiple_choice",
+            "options": [
+                "A) c = 2r*sin(\u03b8/2)",
+                "B) c = r*sin(\u03b8)",
+                "C) c = r*sin(\u03b8/2)",
+                "D) c = 2r*sin(\u03b8)"
+            ],
+            "correct_answer": "A) c = 2r*sin(\u03b8/2)",
+            "whyCorrectAnswer": "The formula for the chord length with central angle \u03b8 in radians is c = 2r*sin(\u03b8/2).",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "What equation represents the area (A) of an isosceles trapezoid in terms of its bases (a and b) and its height (h)? A) A = (a + b) / 2 * h, B) A = h / 2 * (a + b), C) A = (a + b) * h / 2, D) A = h * (a + b) / 2",
+            "type": "multiple_choice",
+            "options": [
+                "A) A = (a + b) / 2 * h",
+                "B) A = h / 2 * (a + b)",
+                "C) A = (a + b) * h / 2",
+                "D) A = h * (a + b) / 2"
+            ],
+            "correct_answer": "C) A = (a + b) * h / 2",
+            "whyCorrectAnswer": "In isosceles trapezoids, the area (A) is calculated by A = (a+b) * h / 2, where 'a' and 'b' are the lengths of the bases and 'h' is the height.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "Which of the following equations isolates e in terms of f and g: f = 4eg? A) e = f / (4g), B) e = (f-g) / 4, C) e = 4 / (f*g), D) e = f / 4g",
+            "type": "multiple_choice",
+            "options": [
+                "A) e = f / (4g)",
+                "B) e = (f-g) / 4",
+                "C) e = 4 / (f*g)",
+                "D) e = f / 4g"
+            ],
+            "correct_answer": "A) e = f / (4g)",
+            "whyCorrectAnswer": "To isolate 'e', divide the equation by 4g to get e = f / (4g).",
+            "difficulty": 2
+        },
+        {
+            "id": "8",
+            "question": "What equation expresses the perimeter (P) of a semicircle in terms of its radius (r) and pi (\u03c0)? A) P = 2\u03c0r + r, B) P = \u03c0r + r, C) P = \u03c0r + 2r, D) P = 2\u03c0r + 2r",
+            "type": "multiple_choice",
+            "options": [
+                "A) P = 2\u03c0r + r",
+                "B) P = \u03c0r + r",
+                "C) P = \u03c0r + 2r",
+                "D) P = 2\u03c0r + 2r"
+            ],
+            "correct_answer": "C) P = \u03c0r + 2r",
+            "whyCorrectAnswer": "A semicircle's perimeter is the sum of the circumference of half a circle and the diameter. The correct formula is P = \u03c0r + 2r.",
+            "difficulty": 3
+        },
+        {
+            "id": "9",
+            "question": "What equation expresses 'm' in terms of 'n' and 'r' from the equation r = 3n - m? A) m = 3n - r, B) m = r - 3n, C) m = n - 3r, D) m = r / (3n)",
+            "type": "multiple_choice",
+            "options": [
+                "A) m = 3n - r",
+                "B) m = r - 3n",
+                "C) m = n - 3r",
+                "D) m = r / (3n)"
+            ],
+            "correct_answer": "B) m = r - 3n",
+            "whyCorrectAnswer": "Rearranging the equation, we get m = r - 3n.",
+            "difficulty": 2
+        },
+        {
+            "id": "10",
+            "question": "Which of the following correctly expresses 'x' in terms of 'y' and 'z' origin from the equation 'x^2 + y^2 = z^2'? A) x = sqrt(z^2 - y^2), B) x = y^2 + z^2, C) x = sqrt(y^2 - z^2), D) x = sqrt(y^2 + z^2)",
+            "type": "multiple_choice",
+            "options": [
+                "A) x = sqrt(z^2 - y^2)",
+                "B) x = y^2 + z^2",
+                "C) x = sqrt(y^2 - z^2)",
+                "D) x = sqrt(y^2 + z^2)"
+            ],
+            "correct_answer": "A) x = sqrt(z^2 - y^2)",
+            "whyCorrectAnswer": "According to Pythagorean theorem, 'x' can be represented as 'x' = sqrt(z^2 - y^2).",
+            "difficulty": 4
+        },
+        {
+            "id": "11",
+            "question": "Starting with the equation y = 5x - 7, which equation correctly expresses x in terms of y? A) x = (y+7)/5, B) x = 5y - 7, C) x = y/5 + 7, D) x = (5+y)/7",
+            "type": "multiple_choice",
+            "options": [
+                "A) x = (y+7)/5",
+                "B) x = 5y - 7",
+                "C) x = y/5 + 7",
+                "D) x = (5+y)/7"
+            ],
+            "correct_answer": "A) x = (y+7)/5",
+            "whyCorrectAnswer": "By rearranging the initial equation and isolating 'x', yields the correct answer.",
+            "difficulty": 1
+        }
+    ]
+}

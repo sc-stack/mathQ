@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "The graph of the function g(x) = (x - 5)^3 - 2 is a cubic curve. At which x-coordinate does the graph have a value of 0?",
+            "type": "multiple_choice",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct_answer": "5",
+            "whyCorrectAnswer": "The graph of a cubic function crosses the x-axis at its roots. Here, the root is at x = 5.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "The equation y = 3x^2 - 6x - 2 is graphed in the xy-plane. What is the y-intercept of the graph?",
+            "type": "multiple_choice",
+            "options": [
+                "-1",
+                "-2",
+                "2",
+                "-3"
+            ],
+            "correct_answer": "-2",
+            "whyCorrectAnswer": "The y-intercept of a function is the value of the function when x = 0. Here, when x = 0, y = -2.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "If y = (3)^x + 2 is graphed in the xy-plane, what is the coordinate of its y-intercept?",
+            "type": "multiple_choice",
+            "options": [
+                "(0, 3)",
+                "(0, 2)",
+                "(0, 1)",
+                "(0, 5)"
+            ],
+            "correct_answer": "(0, 3)",
+            "whyCorrectAnswer": "The y-intercept is found when x is zero. Substituting x = 0 gives y = (3)^0 + 2 = 1 + 2 = 3. So the y-intercept is at (0, 3).",
+            "difficulty": 3.5
+        },
+        {
+            "id": "4",
+            "question": "The function y = (4x^2 - 3x + 2) is graphed in the xy-plane. Which of the following are possible x-intercepts of the graph?",
+            "type": "multiple_choice",
+            "options": [
+                "-1/2, 1",
+                "1/2, -1",
+                "1/4, -1",
+                "None of the above"
+            ],
+            "correct_answer": "None of the above",
+            "whyCorrectAnswer": "The x-intercepts of the equation y = 4x^2 - 3x + 2 are found by setting y = 0 and solving for x, which gives no real solutions.",
+            "difficulty": 5
+        },
+        {
+            "id": "5",
+            "question": "Given the function g(x) = (x - 6)^2 - 9, what are the coordinates of the vertex?",
+            "type": "multiple_choice",
+            "options": [
+                "(6, -9)",
+                "(6, 9)",
+                "(-6, -9)",
+                "(-6, 9)"
+            ],
+            "correct_answer": "(6, -9)",
+            "whyCorrectAnswer": "For the quadratic function in the form f(x) = (x - h)^2 + k, the vertex is at the point (h, k). Here, h = 6 and k = -9.",
+            "difficulty": 3
+        },
+        {
+            "id": "6",
+            "question": "The equation y = -x^3 + 4x + 1 is graphed in the xy-plane. What is the y-intercept?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "4",
+                "-4",
+                "-1"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "The y-intercept is the value of y when x is zero. So, when x = 0, y = 1. Hence, y-intercept is 1.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "A cubic equation y = A(x - B)^3 + C intersects the x-axis at B. What is the y-coordinate of the point where the graph intersects the y-axis?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "A",
+                "B",
+                "C"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "The equation intersects the y-axis when x = 0. So, substituting x = 0 into the equation gives y = A(-B)^3 + C = -AB^3 + C. As it's provided that the graph intersects the x-axis at B, AB^3 becomes zero. Thus, the y-coordinate is C.",
+            "difficulty": 5
+        },
+        {
+            "id": "8",
+            "question": "The function y = (2x^2 - 5x - 6) is graphed in the xy-plane. What are the x-intercepts of the function?",
+            "type": "multiple_choice",
+            "options": [
+                "-1, 3",
+                "1, 3",
+                "-1, -3",
+                "None of the above"
+            ],
+            "correct_answer": "-1, 3",
+            "whyCorrectAnswer": "Setting the function equal to zero gives us the x-intercepts once the equation is solved. The equation factors to 2(x - 3)(x + 1) = 0. So, the x-intercepts are -1 and 3.",
+            "difficulty": 4.5
+        },
+        {
+            "id": "9",
+            "question": "The graph of f(x) = -2(x - 1)^2 + 3 is a parabola. What is the maximum value of the function?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "-2",
+                "3",
+                "-3"
+            ],
+            "correct_answer": "3",
+            "whyCorrectAnswer": "The maximum value of a downward-opening parabola is at its vertex. In this form, the maximum value is represented by the constant k, which here is 3.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "If y = (2)^x - 4 is graphed in the xy-plane, what are the coordinates of its y-intercept?",
+            "type": "multiple_choice",
+            "options": [
+                "(0, -4)",
+                "(0, -2)",
+                "(0, 2)",
+                "(0, 4)"
+            ],
+            "correct_answer": "(0, -4)",
+            "whyCorrectAnswer": "The y-intercept is found when x is zero. Substituting x = 0 gives y = (2)^0 - 4 = 1 - 4 = -3. So the y-intercept is at (0, -4).",
+            "difficulty": 3
+        },
+        {
+            "id": "11",
+            "question": "Suppose a function is described by the formula f(x) = A(x - h)\u00b2 + k, where A, h, and k are constants and A \u2260 0. If the graph of the function is a parabola in the xy-plane, at which point does it have its vertex?",
+            "type": "multiple_choice",
+            "options": [
+                "(0, 0)",
+                "(h, k)",
+                "(-h, -k)",
+                "(A, 0)"
+            ],
+            "correct_answer": "(h, k)",
+            "whyCorrectAnswer": "In the form f(x) = A(x - h)\u00b2 + k, the vertex of the parabola is at (h, k).",
+            "difficulty": 4
+        }
+    ]
+}
