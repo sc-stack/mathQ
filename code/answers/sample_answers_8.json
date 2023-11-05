@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "In a factory, machines M and N produce biscuits. Machine M makes 3 times as many biscuits as machine N in an hour. Both machines combined produced 2500 biscuits in a day. If machine M operated for 2 hours more than machine N, which set of equations can be used to find the hours Machine M and N operated for?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) m = 3n, m+n = 1250",
+                "(B) m = 2n+3, 3m + n = 2500",
+                "(C) m = 3n, 3m + 2n = 2500",
+                "(D) m = 2n + 3, u = 3m+2n"
+            ],
+            "correct_answer": "(C) m = 3n, 3m + 2n = 2500",
+            "whyCorrectAnswer": "Machine M produces 3 times the biscuits than machine N per hour, so m = 3n. The second equation (3m + 2n = 2500) accounts for the fact that machine M operated for 2 hours more than Machine N.",
+            "difficulty": 4
+        },
+        {
+            "id": "2",
+            "question": "A container has a mixture of sand and water in the ratio 5:3. A lot more sand is added to the container now making the ratio of sand to water 8:1. If the additional sand added is 300kg, which set of equations can be used to find the initial weight of sand and water in the container?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) s/w = 5/3, s+300/w = 8/1",
+                "(B) s/w = 8/1, w = 300s",
+                "(C) s = w+300, s/w = 5/3",
+                "(D) s/w = 5/3, s+300 = 8w"
+            ],
+            "correct_answer": "(A) s/w = 5/3, s+300/w = 8/1",
+            "whyCorrectAnswer": "Initially, the sand and water were in the ratio 5:3, which implies s/w = 5/3. When 300 kg of sand was added, the ratio became 8:1. So, (s+300)/w = 8/1.",
+            "difficulty": 4.5
+        },
+        {
+            "id": "3",
+            "question": "A student sells books and magazines to raise money for a school trip. The profit from selling a book is twice the profit from selling a magazine. If the student managed to raise $120 with an equal number of books and magazines sold, which system could be used to find the profits from selling a book and a magazine?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) b = 2m, b + m = 120",
+                "(B) b = 2m, 2b + 2m = 120",
+                "(C) b = m / 2, b + m = 120",
+                "(D) b = m / 2, 2b + 2m = 120"
+            ],
+            "correct_answer": "(B) b = 2m, 2b + 2m = 120",
+            "whyCorrectAnswer": "The profit from a book is twice the profit from a magazine, therefore b = 2m. Since an equal number of books and magazines were sold, the total becomes 2b + 2m = 120.",
+            "difficulty": 4.5
+        },
+        {
+            "id": "4",
+            "question": "In a polygon, the number of diagonals is 3 times the number of sides. If the polygon has more than 25 sides, which equation could be used to find the number of sides of the polygon?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) d = 3s",
+                "(B) d = 3s, s > 25",
+                "(C) d = s/3, s > 25",
+                "(D) d = s/3"
+            ],
+            "correct_answer": "(B) d = 3s, s > 25",
+            "whyCorrectAnswer": "The number of diagonals is 3 times the number of sides, thus, d = 3s. Since there are more than 25 sides, we also have s > 25.",
+            "difficulty": 3.5
+        },
+        {
+            "id": "5",
+            "question": "A population of rabbits in a certain part of a forest grows by 5% every year, while a population of foxes in the same area grows by 3% annually. If the foxes' population eventually outnumbers the rabbits', which system of equations could we use to find the initial populations?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) r = 1.05r, f = 1.03f",
+                "(B) r = f + 0.05r, f = r + 0.03f",
+                "(C) r = 1.05f, f = 1.03r",
+                "(D) r = 1.05f, f = 1.03r, r < f"
+            ],
+            "correct_answer": "(D) r = 1.05f, f = 1.03r, r < f",
+            "whyCorrectAnswer": "The rabbits' population growing by 5% annually gives us r = 1.05f, and the foxes' population growing by 3% annually gives us f = 1.03r. To signify that the foxes' population eventually outnumbers the rabbits', we have r < f.",
+            "difficulty": 4.5
+        },
+        {
+            "id": "6",
+            "question": "Every day, a factory uses 2,500 liters of water to make 100 kilograms of cheese. If the factory decides to increase its cheese production by 150%, what would be the system of equations one could use to calculate the new water requirement?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) w = 2500c, c = 1.5c",
+                "(B) w = 2500, c = 1.5c",
+                "(C) w = 2500c, c = 2.5c",
+                "(D) w = 2500, c = 2.5c"
+            ],
+            "correct_answer": "(C) w = 2500c, c = 2.5c",
+            "whyCorrectAnswer": "Every 100 kilograms of cheese needs 2,500 liters of water, so w = 2500c. If cheese production increases by 150%, the new cheese production is 2.5 times the old, so c = 2.5c.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "On a two-way street, cars A and B start from the same point but travel in opposite directions. If car A travels at 40 miles per hour for t hours and car B travels at 50 miles per hour for the same duration, which set of equations could be used to find the separation distance between the cars at the end of t hours?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) a = 40t, b = 50t",
+                "(B) a = 40t, b = 50t, d = a + b",
+                "(C) a = 40t, b = 50t, d = a - b",
+                "(D) a = 40t, b = 50t, d = 40t + 50t"
+            ],
+            "correct_answer": "(B) a = 40t, b = 50t, d = a + b",
+            "whyCorrectAnswer": "Car A travels at 40 miles per hour, thus a = 40t. Car B travels at 50 miles per hour, thus b = 50t. They travel in opposite directions for the same duration, their separation is d = a + b.",
+            "difficulty": 3.5
+        },
+        {
+            "id": "8",
+            "question": "A train A leaves station at 3 pm traveling at 60 miles per hour. 2 hours later, another train B leaves the same station traveling in the same direction at 80 miles per hour. If train B eventually overtakes train A, which set of equations could be used to find the time it took for train B to overtake train A?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) a = 60t, b = 80(t-2)",
+                "(B) a = 60t, b = 80t",
+                "(C) a = 60t + 2, b = 80t",
+                "(D) a = 60t, b = 80(t+2)"
+            ],
+            "correct_answer": "(A) a = 60t, b = 80(t-2)",
+            "whyCorrectAnswer": "Train A travels at 60 miles per hour. Thus, a = 60t. Train B started 2 hours later and travels at 80 miles per hour. Therefore, its distance covered is b = 80(t-2).",
+            "difficulty": 4
+        },
+        {
+            "id": "9",
+            "question": "In a restaurant, glasses of water are filled with either carbonated or non-carbonated beverage. The ratio of carbonated to non-carbonated is 3:5. If 120 more glasses of noncarbonated beverage were served than carbonated, which of the following equations can be used to solve for the number of each type served?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) c/n = 3/5, n = c + 120",
+                "(B) c = 3n, n = c + 120",
+                "(C) n/c = 3/5, n = c + 120",
+                "(D) n = 3c, n = c + 120"
+            ],
+            "correct_answer": "(A) c/n = 3/5, n = c + 120",
+            "whyCorrectAnswer": "The given ratio of carbonated to noncarbonated is 3:5, so c/n = 3/5 and there were 120 more glasses of noncarbonated beverage served, so n = c + 120.",
+            "difficulty": 4.5
+        },
+        {
+            "id": "10",
+            "question": "In an electrical circuit, a resistor of R ohms dissipates power at the rate of P watts. The power delivered to the resistor is quadruple that being dissipated. If the power being delivered is constant at 60W, which system could be used to find the resistance of the resistor?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) P = 60, d = 4P",
+                "(B) P = 4d, R = P / d",
+                "(C) P = 60, d = P / 4",
+                "(D) R = 4P, P = 60"
+            ],
+            "correct_answer": "(C) P = 60, d = P / 4",
+            "whyCorrectAnswer": "The power delivered to the resistor is constant at 60W, so P = 60. The power dissipated is one fourth of the power consumed, so d = P / 4.",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "In a city, the number of cars, c, grows by 4% every year, while the number of bicycles, b, grows by 10% annually. If in five years the number of bicycles is expected to exceed the number of cars, which of the following systems of equations could be used to find the initial number of cars and bicycles?",
+            "type": "multiple_choice",
+            "options": [
+                "(A) c = 1.04c, b = 1.1b, c < b",
+                "(B) c = 1.04c, b = 1.1b, c > b",
+                "(C) c = 1.04b, b = 1.1c, c < b",
+                "(D) c = 1.04b, b = 1.1c, c > b"
+            ],
+            "correct_answer": "(A) c = 1.04c, b = 1.1b, c < b",
+            "whyCorrectAnswer": "Cars grow by 4% every year, so c = 1.04c. Bicycles grow by 10% annually, so b = 1.1b. In five years, bicycles will exceed cars, so we have c < b.",
+            "difficulty": 4
+        }
+    ]
+}

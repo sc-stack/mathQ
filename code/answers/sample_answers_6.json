@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Corrina wants to boost her business presence on social media. For every new post, she gains about 5 new followers, and every 3 shares gain her 2 followers. If she wants to gain at least 5,000 followers, which of the following inequalities represents the number of posts, P, and shares, S, Corrina needs to reach her goal? Choose 1 answer",
+            "type": "multiple_choice",
+            "options": [
+                "5P + 0.67S \u2265 5,000",
+                "5P + 3S \u2264 5,000",
+                "1P + 2.5S \u2265 5,000",
+                "5P + 0.67S \u2264 5,000"
+            ],
+            "correct_answer": "5P + 0.67S \u2265 5,000",
+            "whyCorrectAnswer": "This equation represents the number of posts multiplied by the followers from each post plus the number of shares multiplied by the followers per share equals at least 5,000 followers.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "Martha is shopping at a farmers market. Each apple costs $1.90 and each banana costs $0.75. If Martha only has $50, which of the following inequalities describes the number of apples, a, and the number of bananas, b, she can buy?",
+            "type": "multiple_choice",
+            "options": [
+                "1.90a + 0.75b \u2265 50",
+                "1.90a + 0.75b \u2264 50",
+                "0.75a + 1.90b \u2265 50",
+                "0.75a + 1.90b \u2264 50"
+            ],
+            "correct_answer": "1.90a + 0.75b \u2264 50",
+            "whyCorrectAnswer": "This equation means the cost of the apples plus the cost of the bananas should be less than or equal to $50, representing Martha's budget.",
+            "difficulty": 3
+        },
+        {
+            "id": "3",
+            "question": "A trivia contest rewards 5 points for each correct multiple choice question and 7 points for each correct free response question. To qualify for the next round, a contestant must score above 100 points. If Bob qualified, which of the following inequalities describes m, the number of multiple choice questions, and f, the number of free response questions, he answered correctly?",
+            "type": "multiple_choice",
+            "options": [
+                "5m + 7f > 100",
+                "5m + 7f \u2265 100",
+                "5m + 7f < 100",
+                "5m + 7f \u2264 100"
+            ],
+            "correct_answer": "5m + 7f > 100",
+            "whyCorrectAnswer": "Bob advancing to the next round implies he scored more than 100, hence 'More than' symbol>",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "Elaine commutes to work 5 days a week. Each morning, she walks for 15 minutes, rides the bus for x minutes, and rides the train for y minutes. If Elaine spends at least 4.5 hours on her morning commute each week, which of the following inequalities best describes Elaine's weekly morning commute?",
+            "type": "multiple_choice",
+            "options": [
+                "x + y + 15 \u2265 4.5(60)",
+                "x + y + 15 \u2265 4.5(60)(5)",
+                "5(x + y) + 15 \u2265 4.5(60)",
+                "5(x + y + 15) \u2265 4.5(60)"
+            ],
+            "correct_answer": "5(x + y + 15) \u2265 4.5(60)",
+            "whyCorrectAnswer": "5 days commute, therefore multiply (x + y + 15) by 5 on left-hand side of the equation. On the right-hand side, 4.5 hours must be converted to minutes, so 4.5(60).",
+            "difficulty": 5
+        },
+        {
+            "id": "5",
+            "question": "Ella has reserved $1,500 for her travel and lodging expenses in her international trip. She found round-trip plane tickets for p dollars total, a hotel for h dollars per night, and a rental car for c dollars per day for 7 days. If she plans to stay at the hotel for a week, which of the following inequalities pertains to her plan?",
+            "type": "multiple_choice",
+            "options": [
+                "p + 7h + 7c > 1,500",
+                "7p + h + c > 1,500",
+                "p + 7h + 7c < 1,500",
+                "7p + h + c < 1,500"
+            ],
+            "correct_answer": "p + 7h + 7c < 1,500",
+            "whyCorrectAnswer": "The total cost for the plane ticket, hotel for 7 days, and the rental car for 7 days should be less than $1,500, Ella\u2019s budget.",
+            "difficulty": 4
+        }
+    ]
+}

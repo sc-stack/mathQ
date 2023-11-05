@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Sofia saved $5 less than twice the amount that Maria saved. If Maria saved $y, which of the following equations best describes the situation?",
+            "type": "multiple_choice",
+            "options": [
+                "2y - 5 = S",
+                "2y + 5 = S",
+                "5y - 2 = S",
+                "y - 2 = 5S"
+            ],
+            "correct_answer": "2y - 5 = S",
+            "whyCorrectAnswer": "Twice the amount Maria saved is represented as 2y and Sofia saved $5 less so you subtract 5.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "The surface area S of a cube with sides of length x is given by the formula S = 6x^2. If the surface area of a cube is increased by 30 square units when its edge length is increased by 2 units, which of the following equations must be true?",
+            "type": "multiple_choice",
+            "options": [
+                "6(x + 2)^2 - 6x^2 = 30",
+                "6(x + 2) - 6x = 30",
+                "(x + 2)^2 - x^2 = 30",
+                "6(x + 2)^2 - x^2 = 30"
+            ],
+            "correct_answer": "6(x + 2)^2 - 6x^2 = 30",
+            "whyCorrectAnswer": "The formula S = 6x^2 is used in both the calculations, where the increased length is (x+2). Hence, 6((x+2)^2) - 6x^2 = 30.",
+            "difficulty": 3
+        },
+        {
+            "id": "3",
+            "question": "A car rental agency rents m midsize cars and c compact cars. The total rent income is the product of the number of cars and the rent per car. If midsize cars are rented at $25 per day and compact cars are rented at $20 per day, which of the following equations best describes the total rent income R?",
+            "type": "multiple_choice",
+            "options": [
+                "R = 25m + 20c",
+                "R = 20m + 25c",
+                "R = 25m * 20c",
+                "R = 20m * 25c"
+            ],
+            "correct_answer": "R = 25m + 20c",
+            "whyCorrectAnswer": "The total income is the sum of the rent of midsize cars (25m) and the rent of compact cars (20c).",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "The amount of water in a tank doubles every hour. If the amount of water initially in the tank is W gallons, what is the amount of water in the tank after t hours?",
+            "type": "multiple_choice",
+            "options": [
+                "Wt",
+                "W + t",
+                "2Wt",
+                "W(2^t)"
+            ],
+            "correct_answer": "W(2^t)",
+            "whyCorrectAnswer": "Since the amount of water doubles (2 times) every hour, after t hours it would be W(2^t).",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "An object is dropped from the top of a building. The distance it falls is modeled by the equation d = 16t^2, where t is the time and d is the distance. If the object falls a certain distance three times faster, which equation could model the event?",
+            "type": "multiple_choice",
+            "options": [
+                "d = 16(3t)^2",
+                "d = 48t^2",
+                "d = 16t^2 / 3",
+                "d = 16t^2 - 3"
+            ],
+            "correct_answer": "d = 16(3t)^2",
+            "whyCorrectAnswer": "If the object falls three times faster, then time would decrease by a factor of 3; hence it is in the equation as (3t)^2.",
+            "difficulty": 5
+        }
+    ]
+}

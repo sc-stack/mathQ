@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "P(x)=0.9x - 1.6x^3; The trajectory of a baseball is given by the function above. What was the height of the baseball immediately after it was hit?",
+            "type": "multiple_choice",
+            "options": [
+                "0 mm",
+                "0.9 mm",
+                "1.6 mm",
+                "Cannot be determined from the given function"
+            ],
+            "correct_answer": "0 mm",
+            "whyCorrectAnswer": "When x=0, P(x)=0, hence the trajectory of the baseball was at 0 height just after it was hit.",
+            "difficulty": 4
+        },
+        {
+            "id": "2",
+            "question": "I(a)=12,000(1.065)^a; The current value in dollars, I(a), of an antique after a years is given by the function defined above. If the antique was bought 5 years ago, what is the present value of the antique in dollars?",
+            "type": "multiple_choice",
+            "options": [
+                "$12,000",
+                "$16,720",
+                "$18,021",
+                "$19,223"
+            ],
+            "correct_answer": "$19,223",
+            "whyCorrectAnswer": "Substituting a=5 in the given function, we get I(5) = 12000 * (1.065)^5 \u2248 $19223.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "h(r)=0.000439(r^2 -18,500r)+368; The Brooklyn Bridge is a suspension bridge with two equal height towers. The function above models h, the height of each cable above the water in meters, concerning r, the cable's horizontal distance from the left tower in meters. What is the maximum height of the towers in meters?",
+            "type": "multiple_choice",
+            "options": [
+                "740 meters",
+                "368 meters",
+                "0.000439 meters",
+                "18500 meters"
+            ],
+            "correct_answer": "368 meters",
+            "whyCorrectAnswer": "The h(r) expression provides the height function. The constant term, 368 meters, equals the cable's minimum height, which correlates to the tower's height.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "c=0.7\u22c50.86^n; The Red Sea Starfish removes particulate from water as part of its feeding pattern. The concentration, c, remaining in a particular bay n months after the introduction of a population of Red Sea Starfish can be estimated using the equation. How many milligrams per liter of particulate were in the bay when the starfish were first introduced?",
+            "type": "multiple_choice",
+            "options": [
+                "0 mg/L",
+                "0.7 mg/L",
+                "0.86 mg/L",
+                "Cannot determine"
+            ],
+            "correct_answer": "0.7 mg/L",
+            "whyCorrectAnswer": "Substituting n=0, c=0.7 since anything to the power of 0 is 1.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "A(y)=-1/3(y\u221260)^2 +720; The area, A(y), of a rectangular closure that can be made from a limited amount of fencing is shown above, where y is the width of the fence. What is the maximum area that can be enclosed in square feet?",
+            "type": "multiple_choice",
+            "options": [
+                "60 square feet",
+                "120 square feet",
+                "720 square feet",
+                "780 square feet"
+            ],
+            "correct_answer": "720 square feet",
+            "whyCorrectAnswer": "The maximum value of the quadratic function occurs at its vertex. In this function, the vertex represents the maximum area obtainable, which is 720 square feet.",
+            "difficulty": 5
+        },
+        {
+            "id": "6",
+            "question": "J(q) = 0.5q^2 - 5q + 1.5; What is the value of the function when q equals zero?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "0.5",
+                "1.5",
+                "-5"
+            ],
+            "correct_answer": "1.5",
+            "whyCorrectAnswer": "Plugging in q=0, the equation simplifies to J(0)= 0.5*0 - 5*0 + 1.5 which equals 1.5",
+            "difficulty": 2
+        },
+        {
+            "id": "7",
+            "question": "Z(c) = 50c^3 - 35c^2 + 12c - 100; The function above is used to identify the annual profit (in thousands) of a company based on the c number of units it sells. If every unit costs the company $50,000, how much will the profit be if the company sells 5 units?",
+            "type": "multiple_choice",
+            "options": [
+                "$150,000",
+                "$1,500,000",
+                "$550,000",
+                "$1,000,000"
+            ],
+            "correct_answer": "$1,000,000",
+            "whyCorrectAnswer": "To find the profit, we substitute c=5 into the equation. This gives us: Z(5) = 50*5^3 - 35*5^2 + 12*5 -100 which equals 2000. As each unit represents $50,000, the total profit is 2000 * $50,000 = $1,000,000",
+            "difficulty": 4
+        },
+        {
+            "id": "8",
+            "question": "T(s) = 0.65s^3 - 3.2s + 8.4; The function above represents the total cost in thousands of dollars, to manufacture s units of a particular item. What will be the cost to manufacture 0 units?",
+            "type": "multiple_choice",
+            "options": [
+                "$0",
+                "$3.2",
+                "$8.4",
+                "Cannot be determined"
+            ],
+            "correct_answer": "$8.4",
+            "whyCorrectAnswer": "We substitute s=0 into the equation to find the cost when manufacturing 0 units, and it simplifies to T(0) = 0*0^3 - 3.2*0 + 8.4 which equals 8.4, meaning it costs $8400 to manufacture 0 units.",
+            "difficulty": 2
+        },
+        {
+            "id": "9",
+            "question": "G(x)=0.25x^3\u2014 0.5x^2 + 2x - 1; What is the value of the function when x equals zero?",
+            "type": "multiple_choice",
+            "options": [
+                "-1",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer": "-1",
+            "whyCorrectAnswer": "Plugging in x=0 into the function simplifies it to G(0)= -1",
+            "difficulty": 1
+        },
+        {
+            "id": "10",
+            "question": "H(u) = 0.8u^3 - 1.5u + 0.5; The position in meters of a particle after u seconds is given by the equation. What was the position of the particle at u = 0 seconds?",
+            "type": "multiple_choice",
+            "options": [
+                "0 m",
+                "0.5 m",
+                "-0.5 m",
+                "1.5 m"
+            ],
+            "correct_answer": "0.5 m",
+            "whyCorrectAnswer": "Substituting u=0 in the equation H(u), we get H(0) = 0.5 m",
+            "difficulty": 3
+        },
+        {
+            "id": "11",
+            "question": "M(x)=0.115x^3 - 6x + 5.6; A particle's motion along a straight line is given by the equation. What was the particle's position at x = 0 s?",
+            "type": "multiple_choice",
+            "options": [
+                "0 meters",
+                "5.6 meters",
+                "-6 meters",
+                "0.115 meters"
+            ],
+            "correct_answer": "5.6 meters",
+            "whyCorrectAnswer": "Substituting x=0 in the equation M(x), we get M(0) = 5.6 meters",
+            "difficulty": 3
+        }
+    ]
+}

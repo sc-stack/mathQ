@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "What is the solution to the system of equations: 3x + 2y = 18, 2x - y = 2?",
+            "type": "multiple_choice",
+            "options": [
+                "(-1, 2)",
+                "(4, 3)",
+                "(1, 7)",
+                "(2, 5)"
+            ],
+            "correct_answer": "(4, 3)",
+            "whyCorrectAnswer": "Subtracting the second equation from the first gives us y = 3. Substituting this value of y in the second equation, you get 2x - 3 = 2, hence x = 5/2 = 2.5",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "Which pair (x,y) is a solution to the system of equations: 5x - 2y = 10 and 3x + 4y = 12?",
+            "type": "multiple_choice",
+            "options": [
+                "(2, 1)",
+                "(-1, 2)",
+                "(8, -2)",
+                "(3, 1)"
+            ],
+            "correct_answer": "(2, 1)",
+            "whyCorrectAnswer": "Substituting (2,1) in both the equations satisfies them, confirming that pair (2,1) is the solution.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "The system of equations above has solution (x,y). Equations: x + 4y = 4 and 4x - 2y = 22. What is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "-1",
+                "5",
+                "7",
+                "9"
+            ],
+            "correct_answer": "7",
+            "whyCorrectAnswer": "Solving the equations through substitution or linear combination method will give the value of x as 7.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "The system of equations 2x + 3y = 7 and 3x - 2y = 1 has solution (x,y). What is the value of y?",
+            "type": "multiple_choice",
+            "options": [
+                "2",
+                "-3",
+                "1",
+                "0"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "Solving the equations, we get the value of y as 1.",
+            "difficulty": 5
+        },
+        {
+            "id": "5",
+            "question": "What is the solution (x,y) to the system of equations x + 2y = 4 and x - 3y = -5?",
+            "type": "multiple_choice",
+            "options": [
+                "(2,1)",
+                "(1,3/2)",
+                "(3,-1)",
+                "(0,-2)"
+            ],
+            "correct_answer": "(2,1)",
+            "whyCorrectAnswer": "Solving the equations, we get the solution as (2, 1)",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "The system of equations above has a solution (x,y). Equations: 4x + 5y = 15 and 2x - y = 7. What is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "-3",
+                "9",
+                "3"
+            ],
+            "correct_answer": "3",
+            "whyCorrectAnswer": "Solving the system of equations, we find that x = 3.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "If (x,y) are solutions to the system of equations 4x - 5y = 20 and 3x + 4y = 12, what is the value of y?",
+            "type": "multiple_choice",
+            "options": [
+                "1/2",
+                "2/3",
+                "3",
+                "4"
+            ],
+            "correct_answer": "2/3",
+            "whyCorrectAnswer": "Solving the system of equations, we find that y = 2/3.",
+            "difficulty": 5
+        },
+        {
+            "id": "8",
+            "question": "What is the solution (x,y) to the system of equations x + y = 5 and x - 2y = 4?",
+            "type": "multiple_choice",
+            "options": [
+                "(3,2)",
+                "(4,1)",
+                "(1,4)",
+                "(2,3)"
+            ],
+            "correct_answer": "(3,2)",
+            "whyCorrectAnswer": "Substituting the value of x from the first equation to second equation, we solve for y. Further replacing the calculated value of y in first equation, we solve for x and get the solution as (3,2)",
+            "difficulty": 3
+        },
+        {
+            "id": "9",
+            "question": "Which pair (x,y) is a solution to the system of equations: 2x - 5y = 15 and 3x + y = 14?",
+            "type": "multiple_choice",
+            "options": [
+                "(4, 2)",
+                "(-1, 3)",
+                "(5, -1)",
+                "(3, 4)"
+            ],
+            "correct_answer": "(5, -1)",
+            "whyCorrectAnswer": "Substituting (5,-1) in both the equations satisfies them, confirming that pair (5,-1) is the solution.",
+            "difficulty": 3
+        },
+        {
+            "id": "10",
+            "question": "The system of equations 5x + 7y = 35 and 4x - 3y = 19 has solution (x,y). What is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "7",
+                "-5",
+                "3",
+                "5"
+            ],
+            "correct_answer": "5",
+            "whyCorrectAnswer": "Solving the equations, we get the value of x as 5.",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "If a system of equations is given by: 3x + 2y \u2212 z = 10, 2x \u2212 2y + 3z = \u22122, x + y + 2z = 1. What is the value of y?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "-1",
+                "1",
+                "-2"
+            ],
+            "correct_answer": "0",
+            "whyCorrectAnswer": "Solving the system of equations, we find the value of y as 0.",
+            "difficulty": 5
+        }
+    ]
+}

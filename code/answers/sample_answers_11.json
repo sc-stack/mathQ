@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "T(t)=15+17(0.5)^t; The equilibrium temperature of a room is 15°C. A heater in the room is turned off and the room cools to the ambient temperature. This change of temperature is given by the exponential function above over time t. What is the temperature of the room after 4 hours?",
+            "type": "multiple_choice",
+            "options": [
+                "16°C",
+                "17.5°C",
+                "20°C",
+                "9°C"
+            ],
+            "correct_answer": "16°C",
+            "whyCorrectAnswer": "Plugging t=4 into the equation yields T(4) = 15 + 17*(0.5^4) = approximately 16°C.",
+            "difficulty": 4
+        },
+        {
+            "id": "2",
+            "question": "h(t)=-5.1t^2+60t; The equation above models h, the height of a rocket in meters, t seconds after launch. What is the estimated height, in meters, of the rocket 5 seconds after launch?",
+            "type": "multiple_choice",
+            "options": [
+                "125 m",
+                "200 m",
+                "150 m",
+                "175 m"
+            ],
+            "correct_answer": "125 m",
+            "whyCorrectAnswer": "By substituting t=5 into the equation, h(5) = -5.1*(5^2) + 60*5 = 125 meters.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "P(t)=2,000(1.005)^t; The function above models P, the amount of money, in dollars, in Jacob's savings account t years after he began saving with an initial deposit of $2,000. How much money is in Jacob's account 10 years after his starting contribution if he makes no other contributions or withdraws during that time?",
+            "type": "multiple_choice",
+            "options": [
+                "$2,000",
+                "$2,562.89",
+                "$3,100.00",
+                "$8,000"
+            ],
+            "correct_answer": "$2,562.89",
+            "whyCorrectAnswer": "Substituting t=10 into the function yields P(10) = 2000*(1.005^10) = $2,562.89.",
+            "difficulty": 5
+        },
+        {
+            "id": "4",
+            "question": "f(x)=0.153x^2; The function above models f, the kinetic energy, in joules, of a soccer ball traveling at a speed of x meters per second. Based on the equation, what is the kinetic energy, in joules, of a soccer ball traveling at a speed of 50 meters per second?",
+            "type": "multiple_choice",
+            "options": [
+                "382.5 J",
+                "765 J",
+                "1,530 J",
+                "3,060 J"
+            ],
+            "correct_answer": "382.5 J",
+            "whyCorrectAnswer": "Substituting x=50 into the function gives f(50) = 0.153*(50^2) = 382.5 joules.",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "h(t) = -4.9t^2 + 70t; The equation above models h, the height in meters, of a basketball t seconds after it is launched. After how many seconds will the basketball reach its maximum height?",
+            "type": "multiple_choice",
+            "options": [
+                "7.1 seconds",
+                "7.14 seconds",
+                "6.91 seconds",
+                "7.43 seconds"
+            ],
+            "correct_answer": "7.14 seconds",
+            "whyCorrectAnswer": "The maximum height is reached when the derivative of the function equals zero. By setting -4.9*2t + 70 = 0, solving for t gives 7.14 seconds.",
+            "difficulty": 5
+        },
+        {
+            "id": "6",
+            "question": "S(t)=25+7(0.85)^t; A solution in a container starts at 25°C and cools at the rate given by the exponential function above. What is the temperature of the solution 3 hours after it starts cooling?",
+            "type": "multiple_choice",
+            "options": [
+                "23°C",
+                "24°C",
+                "30°C",
+                "28°C"
+            ],
+            "correct_answer": "23°C",
+            "whyCorrectAnswer": "Substitute t=3 into the function, S(3)=25+7*(0.85^3)= approximately 23°C.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "A=20(1.03)^t; The function above models A, the amount of money in dollars, in a compound interest account t years after an initial deposit of $20. How much will be in the account after 7 years, assuming that no other payments are made or withdrawn?",
+            "type": "multiple_choice",
+            "options": [
+                "$22.72",
+                "$23.96",
+                "$25.67",
+                "$26.48"
+            ],
+            "correct_answer": "$26.48",
+            "whyCorrectAnswer": "Substitute t=7 into the equation, A(7)=20*(1.03^7)= $26.48.",
+            "difficulty": 5
+        },
+        {
+            "id": "8",
+            "question": "g(x)=0.5x^2; The function above models g, the energy, in joules, of a particle with a speed of x meters per second. Based on the formula, what is the energy of a particle that is moving at a speed of 30 meters per second?",
+            "type": "multiple_choice",
+            "options": [
+                "150 J",
+                "300 J",
+                "450 J",
+                "900 J"
+            ],
+            "correct_answer": "450 J",
+            "whyCorrectAnswer": "Plugging x=30 into the formula gives g(30) = 0.5*(30^2) = 450 joules.",
+            "difficulty": 2
+        },
+        {
+            "id": "9",
+            "question": "h(t)=-16.1t^2 +78t; The formula above models the distance h in feet, of a fired projectile t seconds after launching. What is the height, in feet, of the projectile 2.5 seconds after firing?",
+            "type": "multiple_choice",
+            "options": [
+                "67.875 ft",
+                "135.125 ft",
+                "202.375 ft",
+                "269.625 ft"
+            ],
+            "correct_answer": "67.875 ft",
+            "whyCorrectAnswer": "Substitute t=2.5 into the function, h(2.5) = -16.1*(2.5^2) + 78*2.5 = 67.875 feet.",
+            "difficulty": 3
+        },
+        {
+            "id": "10",
+            "question": "f(t)=(1.015)^t; The function above models the growth of a bacteria population over time, t hours. What would be the bacteria population after 10 hours if the initial amount was 100?",
+            "type": "multiple_choice",
+            "options": [
+                "116",
+                "152",
+                "161",
+                "118"
+            ],
+            "correct_answer": "161",
+            "whyCorrectAnswer": "Substitute t=10 into the function gives f(10) = (1.015^10) = 1.161. Since the starting amount was 100, the ending amount after 10 hours is 1.161 * 100 = 161.",
+            "difficulty": 4
+        },
+        {
+            "id": "11",
+            "question": "A model of a free falling object is given by s(t)=-16.1t^2 + v0t + s0, where s(t) is the height of the object at time t, v0 is the initial velocity, and s0 is the initial position. If the object was dropped from a height of 100 feet with no initial velocity, what is the height of the object after 2 seconds?",
+            "type": "multiple_choice",
+            "options": [
+                "67.6 ft",
+                "52.4 ft",
+                "70.2 ft",
+                "85.8 ft"
+            ],
+            "correct_answer": "67.6 ft",
+            "whyCorrectAnswer": "Substitute t=2 into the equation and remember that initial velocity (v0) is zero because the object was dropped. So, s(2) = -16.1*(2^2) + 0 +100 = 67.6 feet.",
+            "difficulty": 4
+        }
+    ]
+}

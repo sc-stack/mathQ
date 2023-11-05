@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "What is the slope of the line represented by the equation 4x + 2y = -8?",
+            "type": "multiple_choice",
+            "options": [
+                "-2",
+                "2",
+                "-4",
+                "4"
+            ],
+            "correct_answer": "-2",
+            "whyCorrectAnswer": "You solve the equation for y. After obtaining y = -2x - 4, the slope is the coefficient on x, which is -2.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "The equation kx + my = n is graphed in the xy-plane. If orientated clockwise from the positive y-axis, which of the following conditions must be met for the line to fall in the second quadrant?",
+            "type": "multiple_choice",
+            "options": [
+                "k > 0, m > 0",
+                "k < 0, m > 0",
+                "k > 0, m < 0",
+                "k < 0, m < 0"
+            ],
+            "correct_answer": "k > 0, m < 0",
+            "whyCorrectAnswer": "In the second quadrant, x is positive and y is negative. Therefore, the coefficients of x should be positive and y should be negative.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "The equation 6x - 4y = 12 is graphed in the xy-plane. What is the y-intercept of the line?",
+            "type": "multiple_choice",
+            "options": [
+                "-3",
+                "-1.5",
+                "1.5",
+                "3"
+            ],
+            "correct_answer": "-3",
+            "whyCorrectAnswer": "To find the y-intercept, set x to 0. Solving for y, we get y = -3.",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "Given the equation y = 3x - 5, what is the value of y when x is equal to 4?",
+            "type": "multiple_choice",
+            "options": [
+                "8",
+                "7",
+                "12",
+                "11"
+            ],
+            "correct_answer": "7",
+            "whyCorrectAnswer": "Substituting x=4 into the equation gives y = 3*4 - 5 = 7.",
+            "difficulty": 2
+        },
+        {
+            "id": "5",
+            "question": "Given two linear equations 2x - 6y = -16 and 3x - 9y = -12, which of the following statements is correct?",
+            "type": "multiple_choice",
+            "options": [
+                "The lines intersect.",
+                "The lines are parallel.",
+                "The lines coincide.",
+                "The lines are perpendicular."
+            ],
+            "correct_answer": "The lines coincide.",
+            "whyCorrectAnswer": "The equations are multiples of each other and, therefore, represent the same line.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "The equation of a line is y = 3x + 2. What's the value of x when y equals 8?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "2",
+            "whyCorrectAnswer": "Plugging y=8 into the equation we get 8 = 3x + 2, solving this equation leads us to x = 2.",
+            "difficulty": 2
+        },
+        {
+            "id": "7",
+            "question": "What's the slope of the line given by the equation y = -5x - 7?",
+            "type": "multiple_choice",
+            "options": [
+                "-5",
+                "5",
+                "-7",
+                "7"
+            ],
+            "correct_answer": "-5",
+            "whyCorrectAnswer": "In a slope-intercept form, 'y = mx + b', the coefficient of x is the slope. Hence, the slope is -5.",
+            "difficulty": 3
+        },
+        {
+            "id": "8",
+            "question": "What is the x-intercept of the line represented by the equation 4x - 12 = 2y?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "3",
+                "6",
+                "9"
+            ],
+            "correct_answer": "3",
+            "whyCorrectAnswer": "To find x-intercept set y = 0, solve the equation and find x=3.",
+            "difficulty": 3
+        },
+        {
+            "id": "9",
+            "question": "Given the line y = 2x + b, which value of 'b' can make the line pass through the point (1,4)?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer": "2",
+            "whyCorrectAnswer": "Given point: (x=1, y=4). Substitute x and y within the equation: 4 = 2*1 + b, which leads to b = 2.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "What is the slope of a line perpendicular to the line represented by the equation 4x - 6y = 12?",
+            "type": "multiple_choice",
+            "options": [
+                "-2/3",
+                "-1/2",
+                "2/3",
+                "1/2"
+            ],
+            "correct_answer": "2/3",
+            "whyCorrectAnswer": "First we need to find the slope of the given line which is -4/6 = -2/3. Slope of a line perpendicular to another is the negative reciprocal, so the slope is 2/3.",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "How many solutions does the system of equations 2x + y = 5 and 4x + 2y = 10 have?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "Infinite Solutions"
+            ],
+            "correct_answer": "Infinite Solutions",
+            "whyCorrectAnswer": "The equations are equivalent, thus the line coincides, meaning infinite solutions.",
+            "difficulty": 4
+        }
+    ]
+}

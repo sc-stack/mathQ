@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "L = 2500 - 40t; Lyle keeps a track of his monthly expenses. The equation above expresses his remaining savings, L, in dollars, after t months. What is his monthly expense, in dollars?",
+            "type": "multiple_choice",
+            "options": [
+                "40",
+                "60",
+                "80",
+                "100"
+            ],
+            "correct_answer": "a",
+            "whyCorrectAnswer": "The coefficient of 't' represents the monthly expense. So, Lyle spends $40 every month.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "F = 80 - 2x; The equation above denotes the remaining food, F, in kg, in Arturo's fridge after x days. What is the quantity of food Arturo consumes daily?",
+            "type": "multiple_choice",
+            "options": [
+                "1 kg",
+                "2 kg",
+                "3 kg",
+                "4 kg"
+            ],
+            "correct_answer": "b",
+            "whyCorrectAnswer": "Arturo consumes 2 kg of food daily as given by the coefficient of 'x' in the equation.",
+            "difficulty": 3
+        },
+        {
+            "id": "3",
+            "question": "V = 50 - 0.2g; The equation above signifies the volume in litres of water in a tank after g gallons of water have been removed. What is the initial volume of the tank, in litres?",
+            "type": "multiple_choice",
+            "options": [
+                "45 litres",
+                "50 litres",
+                "55 litres",
+                "60 litres"
+            ],
+            "correct_answer": "b",
+            "whyCorrectAnswer": "The initial volume of the tank is given by the constant, which equals 50 litres.",
+            "difficulty": 2
+        },
+        {
+            "id": "4",
+            "question": "D = -25h + 5000; The equation shows the distance, D, in kilometres, Francine has to her destination after h hours. What is Francine's speed in kilometres per hour?",
+            "type": "multiple_choice",
+            "options": [
+                "10 km/h",
+                "20 km/h",
+                "25 km/h",
+                "30 km/h"
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "Francine's speed equals the absolute value of the coefficient of 'h', which is 25 km/h.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "I = 150 - 5t; The equation above indicates Xavier's current investment value, I, in thousands of dollars, t years after the initial investment. What was the initial value of the investment in thousands of dollars?",
+            "type": "multiple_choice",
+            "options": [
+                "$125,000",
+                "$135,000",
+                "$150,000",
+                "$165,000"
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "The initial value of the investment corresponds to the constant in the equation, which is $150,000.",
+            "difficulty": 4
+        }
+    ]
+}

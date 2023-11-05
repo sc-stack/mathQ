@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "A science laboratory uses two types of test tubes, type-A and type-B. Each type-A test tube requires 18ml of cleaning solution and each type-B requires 31ml. If the laboratory uses 2100ml of cleaning solution to clean all the tubes, which of the following equations shows the possible number of type-A tubes, A, and number of type-B tubes, B, in the laboratory?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 18A + 31B = 2100",
+                "B. 31A + 18B = 2100",
+                "C. 18A + B = 2100",
+                "D. A + 31B = 2100"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation 18A + 31B = 2100 correctly represents the total cleaning solution used by both types of test tubes, where each type-A requires 18ml and each type-B requires 31ml.",
+            "difficulty": 4
+        },
+        {
+            "id": "2",
+            "question": "A marathon runner, at his peak performance, runs 18 miles on a mountain terrain and 15 miles in the city. If the runner runs a total of nearly 300 miles in M mountain terrains and C cities, which of the following equations best represents the relationship between M and C?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 18M + 15C = 300",
+                "B. 15M + 18C = 300",
+                "C. 18M - 15C = 300",
+                "D. 15M - 18C = 300"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation 18M + 15C = 300 correctly represents total miles run in both the city and mountain terrains, with each M term representing the miles run in the mountain and each C term representing the miles run in the city.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "An artisan makes high quality pens and pencils. Each pen takes 6 hours and each pencil takes 3 hours to make. If the artisan works for a total of 42 hours, which of the following equations shows the number of pens, p, and number of pencils, v, that the artisan can make?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 3p + 6v = 42",
+                "B. 6p + 3v = 42",
+                "C. p/3 + v/6 = 42",
+                "D. p/6 + v/3 = 42"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "The equation 6p + 3v = 42 correctly represents the total hours spent making the pens and pencils, with each pen taking 6 hours and each pencil taking 3 hours.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "A rectangular swimming pool has a length of L meters and a width of W meters. The total area of the pool is 900 square meters. Which equation represents the area of the plot in terms of length and width?",
+            "type": "multiple_choice",
+            "options": [
+                "A. LW = 900",
+                "B. L + W = 900",
+                "C. 2L + 2W = 900",
+                "D. L^2 + W^2 = 900"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation LW = 900 correctly represents the area of a rectangular swimming pool, where L is the length and W is the width.",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "A farmer cultivates wheat and barley. He earns an average of $7,000 per acre of wheat and $12,000 per acre of barley. If the farmer wishes to earn a total of $60,000 from these two crops, which of the following equations shows the relationship between the number of acres of wheat, w, and the number of acres of barley, b, required?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 7,000w + 12,000b = 60,000",
+                "B. 12,000w + 7,000b = 60,000",
+                "C. (w/7,000) + (b/12,000) = 60,000",
+                "D. (b/7,000) + (w/12,000) = 60,000"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation 7,000w + 12,000b = 60,000 correctly shows the total earnings from both wheat and barley, where every acre of wheat earns $7,000 and every acre of barley earns $12,000.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "A rectangular parking space has a length of L meters and a width of W meters. The total area of the parking space is 800 square meters. Which equation represents the area of the space in terms of length and width?",
+            "type": "multiple_choice",
+            "options": [
+                "A. LW = 800",
+                "B. L + W = 800",
+                "C. 2L + 2W = 800",
+                "D. L^2 + W^2 = 800"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation LW = 800 correctly represents the area of a rectangular parking space, where L is the length and W is the width.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "An artist paints landscapes and portraits. Each landscape takes 7 hours and each portrait takes 4 hours to complete. If the artist works a total of 49 hours, which equation shows the number of landscapes, l, and number of portraits, p, that the artist can complete?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 4l + 7p = 49",
+                "B. 7l + 4p = 49",
+                "C. l/4 + p/7 = 49",
+                "D. l/7 + p/4 = 49"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "The equation 7l + 4p = 49 correctly represents the total hours spent painting landscapes and portraits, with each landscape taking 7 hours and each portrait taking 4 hours.",
+            "difficulty": 5
+        },
+        {
+            "id": "8",
+            "question": "A bakery bakes two types of bread, rye and whole wheat. Each rye requires 13 minutes in the oven and each whole wheat takes 17 minutes. If the bakery has a total of 300 minutes for baking, which equation represents the relationship between the number of rye breads, R, and whole wheat breads, W, that can be baked?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 13R + 17W = 300",
+                "B. 17R + 13W = 300",
+                "C. R/13 + W/17 = 300",
+                "D. R/17 + W/13 = 300"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation 13R + 17W = 300 correctly represents the total baking time with each rye bread taking 13 minutes and each whole wheat bread taking 17 minutes.",
+            "difficulty": 5
+        },
+        {
+            "id": "9",
+            "question": "A rectangular garden has a length of L meters and a width of W meters. The total perimeter of the garden is 840 meters. Which equation represents the perimeter of the plot in terms of length and width?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 2L + 2W = 840",
+                "B. L + W = 840",
+                "C. LW = 840",
+                "D. 2(L + W) = 840"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation 2L + 2W = 840 correctly represents the perimeter of a rectangular plot, where L is the length and W is the width.",
+            "difficulty": 5
+        },
+        {
+            "id": "10",
+            "question": "A farmer cultivates apples and oranges. He earns an average of $8,000 per acres of apple and $13,000 per acres of oranges. If the farmer wishes to earn a total of $65,000 from these two crops, which of the following equations shows the relationship between the number of acres of apples, a, and the number of acres of oranges, o, required?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 8,000a + 13,000o = 65,000",
+                "B. 13,000a + 8,000o = 65,000",
+                "C. (a/8,000) + (o/13,000) = 65,000",
+                "D. (o/8,000) + (a/13,000) = 65,000"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation 8,000a + 13,000o = 65,000 correctly shows the total earnings from both apple and oranges, where every acre of apple earns $8,000 and every acre of oranges earns $13,000.",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "An engineering workshop produces two types of parts - X and Y. Each X part requires 10 units of raw material and each Y part requires 15 units. If the workshop uses a total of 1150 units of material to produce all the parts, what equation represents the relationship between the number of X parts, X, and Y parts, Y produced?",
+            "type": "multiple_choice",
+            "options": [
+                "A. 10X + 15Y = 1150",
+                "B. 15X + 10Y = 1150",
+                "C. X/10 + Y/15 = 1150",
+                "D. X/15 + Y/10 = 1150"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "The equation 10X + 15Y = 1150 correctly represents the total material used where each X part requires 10 units and each Y part requires 15 units of raw material.",
+            "difficulty": 5
+        }
+    ]
+}

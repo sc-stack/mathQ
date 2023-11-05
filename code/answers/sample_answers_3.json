@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Max has 20 dollars to spend on notebooks. Notebooks cost 3.50 dollars each, and the tax is 5% on the purchase. Which of the following inequalities can be used to represent x, the number of notebooks Max can buy?",
+            "type": "multiple_choice",
+            "options": [
+                "(1.05*3.5x) <= 20",
+                "(1.05*3.5x) >= 20",
+                "(3.5x) >= 20",
+                "(3.5x) <= 20"
+            ],
+            "correct_answer": "(1.05*3.5x) <= 20",
+            "whyCorrectAnswer": "Max should not spend more than 20 dollars. Adding tax, the price of each notebook becomes 3.5*1.05. Hence, for x notebooks, the cost will be (1.05*3.5x) which should be less than or equal to 20.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "Veronica is permitted to watch television for at most 10 hours this week. She wants to spend not less than 6 hours watching television over the weekend. Which of the following inequalities can be used to represent t, the number of hours she can watch television before the weekend?",
+            "type": "multiple_choice",
+            "options": [
+                "10 - t >= 6",
+                "10 - t <= 6",
+                "t - 10 >= 6",
+                "t - 10 <= 6"
+            ],
+            "correct_answer": "10 - t >= 6",
+            "whyCorrectAnswer": "Veronica can watch at most 10 hrs of TV in a week, and she wants to spend at least 6 hours on the weekend. Hence, the time before the weekend should be such that when subtracted from total allowed time (10 hrs), it should still be 6 or more.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "Jacob is manufacturing hammers. If he intends to make not less than 35 hammers that weigh 2 pounds each, what is the least total weight in pounds Jacob must aim for?",
+            "type": "multiple_choice",
+            "options": [
+                "x/2 >= 35",
+                "2x >= 35",
+                "x - 2 >= 35",
+                "2x <= 35"
+            ],
+            "correct_answer": "2x >= 35",
+            "whyCorrectAnswer": "Jacob wants to make 35 hammers each of 2 lbs. So, his weight target (2x) should not be less than 35.",
+            "difficulty": 2
+        },
+        {
+            "id": "4",
+            "question": "Susan must finish reading a 500-page book in the forthcoming 14 days. Which of the following inequalities best represents x, the number of pages she must read each day to complete on or before schedule?",
+            "type": "multiple_choice",
+            "options": [
+                "x/14 >= 500",
+                "14x >= 500",
+                "x + 14 >= 500",
+                "14x <= 500"
+            ],
+            "correct_answer": "14x >= 500",
+            "whyCorrectAnswer": "Susan is bound to read x pages each day for 14 days. Hence, for her to read a minimum of 500 pages, 14x (the total number of pages she reads in 14 days) should be greater than or equal to 500.",
+            "difficulty": 2
+        },
+        {
+            "id": "5",
+            "question": "Eric is conducting a charity drive for the local park. His goal is to accumulate beyond $7,000 in funds. If they've gathered $2,500 so far, which inequality will calculate x, the additional funds that should be raised to hit the target?",
+            "type": "multiple_choice",
+            "options": [
+                "x + 2,500 > 7,000",
+                "2,500 + x < 7,000",
+                "7,000 - x > 2,500",
+                "2,500 - x > 7,000"
+            ],
+            "correct_answer": "x + 2,500 > 7,000",
+            "whyCorrectAnswer": "Eric's fund goal is to exceed $7,000. Seeing that they've already raised $2,500, the extra required amount should be such that when added to the existing $2,500, it should exceed $7,000.",
+            "difficulty": 3
+        },
+        {
+            "id": "6",
+            "question": "Emily plans to consume no more than 2400 calories this week from fruit. If each piece of fruit she eats contains around 150 calories, how many pieces of fruit, f, can she eat?",
+            "type": "multiple_choice",
+            "options": [
+                "150f <= 2400",
+                "2400f >= 150",
+                "150f >= 2400",
+                "f/150 <= 2400"
+            ],
+            "correct_answer": "150f <= 2400",
+            "whyCorrectAnswer": "Emily does not want to surpass her total calorie limit by eating fruit. So, the calories from the total fruit consumption (150f) should be less than or equal to 2400.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "Steven needs to allocate around $1,500 for his upcoming trip. If he has already saved $300 but has other expenditures of $200 per month, which inequality can be used to calculate m, the number of months, he needs to save to afford his trip?",
+            "type": "multiple_choice",
+            "options": [
+                "1500 - 200m >= 300",
+                "200m + 300 >= 1500",
+                "1500 + 200m <= 300",
+                "200m - 300 >= 1500"
+            ],
+            "correct_answer": "200m + 300 >= 1500",
+            "whyCorrectAnswer": "Steven's savings goal is to have $1,500 or more, and he has already saved $300. He saves $200 per month for m months. Therefore his total savings (200m+300) should meet or exceed the $1500 target.",
+            "difficulty": 4
+        },
+        {
+            "id": "8",
+            "question": "A marathon is 42 kilometers long. Randy plans on running at least 10 kilometers a day. Which of the following inequalities would be best to represent d, the number of days Randy needs to complete the marathon?",
+            "type": "multiple_choice",
+            "options": [
+                "10d >= 42",
+                "42d >= 10",
+                "42d <= 10",
+                "10d <= 42"
+            ],
+            "correct_answer": "10d >= 42",
+            "whyCorrectAnswer": "In order to finish the marathon in a number of days, the total distance (10 km, per day, for d days) Randy runs should be equal to or more than 42 km.",
+            "difficulty": 3
+        },
+        {
+            "id": "9",
+            "question": "Anna wants to buy a necklace that costs $79, not including tax. If she has saved $35 and intends to save $5 each week, which of these inequalities will calculate w, the number of weeks she need to save?",
+            "type": "multiple_choice",
+            "options": [
+                "5w + 35 >= 79",
+                "5w + 35 <= 79",
+                "79 - 5w >= 35",
+                "79 + 5w <= 35"
+            ],
+            "correct_answer": "5w + 35 >= 79",
+            "whyCorrectAnswer": "The total saved money after w weeks (5w + 35) should be larger than or equal to the 79 dollars cost.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "Jerome needs to achieve a score of at least 520 points to pass his course. He already scored 280 points and scores on average 46 points every two weeks. Which inequality represents the number of two-week periods, t, that Jerome needs to achieve the required score?",
+            "type": "multiple_choice",
+            "options": [
+                "46t + 280 >= 520",
+                "46t + 280 <= 520",
+                "520 - 46t <= 280",
+                "520 + 46t >= 280"
+            ],
+            "correct_answer": "46t + 280 >= 520",
+            "whyCorrectAnswer": "The total score Jerome earns over t period (46t + 280) must be at least 520 points.",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "Jonas intends to consume no more than 160 grams of protein this week. Each meal he plans to eat has approximately 8 grams of protein. What is the maximum number of meals, m, he can have this week?",
+            "type": "multiple_choice",
+            "options": [
+                "8m <= 160",
+                "160m >= 8",
+                "8m >= 160",
+                "m/8 <= 160"
+            ],
+            "correct_answer": "8m <= 160",
+            "whyCorrectAnswer": "Jonas's total protein consumption from the meals (8m) should not exceed 160 grams, thus the correct option is 8m <= 160.",
+            "difficulty": 4
+        }
+    ]
+}

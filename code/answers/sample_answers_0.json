@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "If (3y - 11)/4 = 7, what is the value of y?",
+            "type": "multiple_choice",
+            "options": [
+                "12",
+                "13",
+                "14",
+                "15"
+            ],
+            "correct_answer": "15",
+            "whyCorrectAnswer": "Solving for y gives us: 4 * 7 + 11 = 3y, then y = 15.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "If 2x + 3(x + 4) = 42, what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "4",
+                "6",
+                "8",
+                "10"
+            ],
+            "correct_answer": "6",
+            "whyCorrectAnswer": "Solving for x gives us: 2x + 3x + 12 = 42, then 5x = 30 and x = 6.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "If 7y + 2 = 2(y + 12), what is the value of y?",
+            "type": "multiple_choice",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "Solving for y gives us: 7y - 2y = 24 - 2, then 5y = 22 and y = 4.4",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "If 12 - 4x = 2x, what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "2",
+            "whyCorrectAnswer": "Solving for x gives us: 12 = 6x, then x = 2.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "If 5(x - 3) - 2x = 15, what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct_answer": "7",
+            "whyCorrectAnswer": "Solving for x gives us: 5x - 15 - 2x = 15, then 3x = 30 and x = 10.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "If (2x + 8)/2 = 3(x - 4), what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct_answer": "8",
+            "whyCorrectAnswer": "Solving for x gives us: x + 4 = 3x - 12, then 2x = 16 and x = 8.",
+            "difficulty": 4
+        },
+        {
+            "id": "7",
+            "question": "If 3(4z - 7) = 4(3z + 8), what is the value of z?",
+            "type": "multiple_choice",
+            "options": [
+                "28",
+                "29",
+                "30",
+                "31"
+            ],
+            "correct_answer": "28",
+            "whyCorrectAnswer": "Solving for z gives us: 12z - 21 = 12z + 32, then z = 28.",
+            "difficulty": 4
+        },
+        {
+            "id": "8",
+            "question": "If 15 = 5/x + x, what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correct_answer": "3",
+            "whyCorrectAnswer": "Solving for x gives us: 5/x = 15 - x, then 5 = 15x - x^2, and so x = 3. ",
+            "difficulty": 5
+        },
+        {
+            "id": "9",
+            "question": "If 4/(x+1) + 3/(x-2) = 1, what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct_answer": "6",
+            "whyCorrectAnswer": "To solve this equation, write the fractions as 4x-8+3x-3 = (x+1)(x-2), so x = 6",
+            "difficulty": 5
+        },
+        {
+            "id": "10",
+            "question": "If (3x - 2)(x + 2) = 3, what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "The equation simplifies to 3x^2 + 4x - 4 = 3, so x^2 + 4x/3 - 1 = 0, and the denominator goes to x = 1 or x = -3.",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "If \u221a(4x + 16) = x + 4, what is the value of x?",
+            "type": "multiple_choice",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correct_answer": "2",
+            "whyCorrectAnswer": "Squaring both sides gives 4x + 16 = x^2 + 8x + 16, and simplifying yields x^2 + 4x = 0, so x = 2.",
+            "difficulty": 5
+        }
+    ]
+}
