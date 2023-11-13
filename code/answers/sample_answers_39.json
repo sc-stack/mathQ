@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "A circle in the xy-plane has its center at (9, -6) and a radius that is twice the length of the radius of a circle with equation (x - 4)^2 + (y + 3)^2 = 16. Which of the following is an equation of the circle?",
+            "type": "multiple_choice",
+            "options": [
+                "A) (x - 9)^2 + (y + 6)^2 = 64",
+                "B) (x + 9)^2 + (y - 6)^2 = 16",
+                "C) (x - 9)^2 + (y - 6)^2 = 32",
+                "D) (x - 9)^2 + (y + 6)^2 = 16"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "A because the radius is twice the length of a radius 4, so the new radius is 8, and the radius squared is 64.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "If a circle's equation is (x - h)^2 + (y - k)^2 = r^2, and it passes through the points (h, k+r) and (h, k-r), what does r represent?",
+            "type": "multiple_choice",
+            "options": [
+                "A) Diameter",
+                "B) Radius",
+                "C) Circumference",
+                "D) Area"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B because r represents the distance from the center (h, k) to any point on the circle, which is the definition of a radius.",
+            "difficulty": 1
+        },
+        {
+            "id": "3",
+            "question": "A circle in the xy-plane has a diameter that ends at points A(-2, 1) and B(6, -3). Which of the following is an equation of the circle?",
+            "type": "multiple_choice",
+            "options": [
+                "A) (x - 2)^2 + (y + 1)^2 = 5",
+                "B) (x + 2)^2 + (y - 1)^2 = 20",
+                "C) (x - 2)^2 + (y + 1)^2 = 20",
+                "D) (x + 2)^2 + (y - 1)^2 = 50"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C because the center of the circle is the midpoint of A and B, which is (2, -1), and the radius is half the distance between A and B, which, after calculation using the distance formula, gives us the radius squared as 20.",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "A circle with center (3, -4) has a point on its circumference at (6, -1). What is the length of the diameter?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 5",
+                "B) 7",
+                "C) 10",
+                "D) 14"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C because the radius can be found using the distance formula between the center and the given point, which is 5; thus, the diameter, which is twice the radius, is 10.",
+            "difficulty": 2
+        },
+        {
+            "id": "5",
+            "question": "What is the area of a circle if its equation is given by (x + 2)^2 + (y - 7)^2 = 36?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 36\u03c0",
+                "B) 72",
+                "C) 72\u03c0",
+                "D) 18\u03c0"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "A because the radius squared, r^2, is 36, so the radius is 6. The area of a circle is \u03c0r^2, which gives an area of 36\u03c0.",
+            "difficulty": 1
+        },
+        {
+            "id": "6",
+            "question": "A circle centered at the origin has a circumference of 10\u03c0. What is the total area of a rectangle formed by drawing tangents to the circle at the end points of its horizontal diameter?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 100",
+                "B) 50",
+                "C) 100\u03c0",
+                "D) 50\u03c0"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "A because the circumference C = 2\u03c0r gives us r = 5. The rectangle's length is the diameter, 2r = 10, and the height is the same as the radius, 5. So the area is length times height, 10 x 5 = 50.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "What is the equation of a circle with a center at the origin that intersects the x-axis at (2\u221a3, 0)?",
+            "type": "multiple_choice",
+            "options": [
+                "A) x^2 + y^2 = 3",
+                "B) x^2 + y^2 = 12",
+                "C) x^2 + y^2 = 4\u221a3",
+                "D) x^2 + y^2 = 6"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B because the x-intercept (2\u221a3, 0) indicates the radius is 2\u221a3, squaring this to find r^2 gives us 12 which will be the equation (x )^2 + (y )^2 = 12.",
+            "difficulty": 2
+        },
+        {
+            "id": "8",
+            "question": "If (x - 2)^2 + (y + 2)^2 = r^2 represents the equation of a circle with radius r, and the circle passes through the point (7, 3), what is the value of r^2?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 25",
+                "B) 50",
+                "C) 36",
+                "D) 49"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B because plugging the point (7, 3) into the equation, we get (7 - 2)^2 + (3 + 2)^2 = r^2 which simplifies to 25 + 25 = r^2. Hence, r^2 = 50.",
+            "difficulty": 2
+        },
+        {
+            "id": "9",
+            "question": "The points (k, 9) and (5, k) lie on a circle that has a radius of 5 units. Given that k > 0, what is the value of k?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 8",
+                "B) 7",
+                "C) 6",
+                "D) 9"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B because we can set the distance from the center of the circle to (k, 9) equal to the radius, using (h - k)^2 + (k - 9)^2 = 25, and similarly for the point (5, k). Solving these gives k = 7.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "A circle with the equation (x + 1)^2 + (y - 2)^2 = r^2 has a chord that passes through the point (4, 5) and is parallel to the x-axis. If the length of the chord is 8 units, what is the radius of the circle?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 5",
+                "B) 5.5",
+                "C) 6",
+                "D) 6.5"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C because the perpendicular distance from the center of the circle to the chord is equal to the y-coordinate difference, which is 3. With half the chord as 4 units and using the Pythagorean theorem, the radius squared becomes 5^2. So, the radius r is 5.",
+            "difficulty": 4
+        },
+        {
+            "id": "11",
+            "question": "A circle is inscribed in a square with sides of length 8\u221a2 units. What is the equation of the circle if the square is centered at the origin?",
+            "type": "multiple_choice",
+            "options": [
+                "A) x^2 + y^2 = 128",
+                "B) x^2 + y^2 = 8",
+                "C) x^2 + y^2 = 32",
+                "D) x^2 + y^2 = 64"
+            ],
+            "correct_answer": "D",
+            "whyCorrectAnswer": "D because the diameter of the circle is equal to the side of the square, which is 8\u221a2 units. Therefore, the radius is half of that, which is 4\u221a2, and when squared, r^2 is 64, giving us the equation x^2 + y^2 = 64.",
+            "difficulty": 3
+        }
+    ]
+}

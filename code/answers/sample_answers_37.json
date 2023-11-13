@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "If an arc of a circle with a radius of 10 meters subtends an angle of 1 radian at the center of the circle, what is the length of the arc?",
+            "type": "multiple_choice",
+            "options": [
+                "5 meters",
+                "10 meters",
+                "15 meters",
+                "20 meters"
+            ],
+            "correct_answer": "10 meters",
+            "whyCorrectAnswer": "The length of an arc subtended by an angle \u03b8 (in radians) is given by \u03b8 times the radius. Hence, 1 radian * 10 meters = 10 meters.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "In a right triangle, if one non-right angle measures 30 degrees, what is the ratio of the length of the opposite side to that of the hypotenuse?",
+            "type": "multiple_choice",
+            "options": [
+                "1/2",
+                "1/\u221a2",
+                "\u221a2/2",
+                "\u221a3/2"
+            ],
+            "correct_answer": "1/2",
+            "whyCorrectAnswer": "In a 30-60-90 degree right triangle, the ratio of the length of the opposite side to the hypotenuse is 1/2 for the 30-degree angle.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "If \u03f4 is an angle in standard position whose terminal side passes through the point (3, -4), what is sin(\u03f4)?",
+            "type": "multiple_choice",
+            "options": [
+                "-4/5",
+                "-3/5",
+                "3/5",
+                "4/5"
+            ],
+            "correct_answer": "-4/5",
+            "whyCorrectAnswer": "The sine of an angle is the y-coordinate of the point divided by the length of the hypotenuse in the unit circle, which is \u221a(3\u00b2+(-4)\u00b2) = 5. Therefore, sin(\u03f4) = -4/5.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "What is the exact value of cos(7\u03c0/6)?",
+            "type": "multiple_choice",
+            "options": [
+                "-\u221a3/2",
+                "-1/2",
+                "\u221a3/2",
+                "1/2"
+            ],
+            "correct_answer": "-\u221a3/2",
+            "whyCorrectAnswer": "At 7\u03c0/6 radians, or 210 degrees, cosine corresponds to the x-coordinate in the unit circle, which is -\u221a3/2 in the standard position on the unit circle.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "What is the degree measure of the smallest positive angle that is coterminal with an angle of -420 degrees?",
+            "type": "multiple_choice",
+            "options": [
+                "300 degrees",
+                "660 degrees",
+                "-60 degrees",
+                "60 degrees"
+            ],
+            "correct_answer": "300 degrees",
+            "whyCorrectAnswer": "Angles are coterminal if they differ by a full rotation of 360 degrees. To find the smallest positive coterminal angle, add 360 to -420 until the result is positive. Thus, -420 + 360 = -60, then -60 + 360 = 300 degrees.",
+            "difficulty": 3
+        },
+        {
+            "id": "6",
+            "question": "An angle measuring 5\u03c0/4 radians is equivalent to how many degrees?",
+            "type": "multiple_choice",
+            "options": [
+                "225 degrees",
+                "250 degrees",
+                "275 degrees",
+                "360 degrees"
+            ],
+            "correct_answer": "225 degrees",
+            "whyCorrectAnswer": "To convert from radians to degrees multiply by 180/\u03c0. Thus, (5\u03c0/4) * (180/\u03c0) = 225 degrees.",
+            "difficulty": 2
+        },
+        {
+            "id": "7",
+            "question": "The tangent of angle \u03f4 in a right triangle is equal to 3. If the adjacent side to angle \u03f4 is 4 units long, how long is the opposite side?",
+            "type": "multiple_choice",
+            "options": [
+                "3 units",
+                "7 units",
+                "12 units",
+                "Cannot be determined"
+            ],
+            "correct_answer": "12 units",
+            "whyCorrectAnswer": "Tangent of an angle in a right triangle is the ratio of the length of the opposite side to the length of the adjacent side. So, tan(\u03f4) = opposite/adjacent, which gives us opposite = 3 * 4 = 12 units long.",
+            "difficulty": 3
+        },
+        {
+            "id": "8",
+            "question": "If the sum of the interior angles of a polygon is equal to the sum of its exterior angles, how many sides does the polygon have?",
+            "type": "multiple_choice",
+            "options": [
+                "3",
+                "4",
+                "6",
+                "8"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "The sum of the exterior angles of any polygon is always 360 degrees. The sum of the interior angles of a polygon with n sides is (n-2) * 180 degrees. Setting them equal, (n-2) * 180 = 360, which solves to n = 4.",
+            "difficulty": 5
+        },
+        {
+            "id": "9",
+            "question": "Given the function f(x) = 2sin(x) + 1, what is the amplitude of the function?",
+            "type": "multiple_choice",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "Cannot be determined"
+            ],
+            "correct_answer": "2",
+            "whyCorrectAnswer": "The amplitude of a sinusoidal function of the form f(x) = Asin(x) + k or f(x) = Acos(x) + k is given by the absolute value of A. In this case, A is 2, therefore the amplitude is 2.",
+            "difficulty": 1
+        },
+        {
+            "id": "10",
+            "question": "If \u03b1 and \u03b2 are complementary angles such that cos(\u03b1) = 9/41 and sin(\u03b2) = 9/41, what is the value of \u03b1 + \u03b2?",
+            "type": "multiple_choice",
+            "options": [
+                "45 degrees",
+                "90 degrees",
+                "135 degrees",
+                "180 degrees"
+            ],
+            "correct_answer": "90 degrees",
+            "whyCorrectAnswer": "Complementary angles sum up to 90 degrees. Since cos(\u03b1) = sin(\u03b2), and the sine of an angle is the cosine of its complement, this confirms that \u03b1 and \u03b2 are indeed complementary.",
+            "difficulty": 4
+        },
+        {
+            "id": "11",
+            "question": "What is the value of cos\u00b2(\u03f4) + sin\u00b2(\u03f4)?",
+            "type": "multiple_choice",
+            "options": [
+                "0",
+                "1",
+                "\u03c0",
+                "2"
+            ],
+            "correct_answer": "1",
+            "whyCorrectAnswer": "This is the Pythagorean identity for trigonometric functions which states that for any angle \u03f4, cos\u00b2(\u03f4) + sin\u00b2(\u03f4) = 1.",
+            "difficulty": 1
+        }
+    ]
+}

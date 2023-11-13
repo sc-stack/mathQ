@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Mr. Brown is conducting research to assess the impact of a new reading program in elementary schools across the county. Which of the following approaches should Mr. Brown take to ensure a valid conclusion?",
+            "type": "multiple_choice",
+            "options": [
+                "Survey all teachers in the largest elementary school.",
+                "Survey one teacher from each grade across all schools.",
+                "Survey a random selection of teachers from each school in the county.",
+                "Survey all teachers who have been teaching for more than 10 years."
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "C because selecting a random sample from each school allows for a diverse and representative sample of the entire population of teachers, increasing the likelihood of valid results.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "A research team wants to estimate the amount of time teenagers spend on social media per day. Which of the following sampling strategies is most appropriate?",
+            "type": "multiple_choice",
+            "options": [
+                "Asking teenagers found in a local mall on a Saturday.",
+                "Gathering data from the social media accounts of the research team's family members.",
+                "Surveying a group of students from one technology class.",
+                "Using a stratified random sample of teenagers from different high schools and age groups."
+            ],
+            "correct_answer": "d",
+            "whyCorrectAnswer": "D because a stratified random sample ensures that subgroups within the population (high schools and age groups) are fairly represented, reducing potential bias.",
+            "difficulty": 4
+        },
+        {
+            "id": "3",
+            "question": "A company wishes to evaluate the job satisfaction level of its employees in different departments. What sampling strategy should the company use to gather the most accurate data?",
+            "type": "multiple_choice",
+            "options": [
+                "Select the first 30 employees who arrive at work for the survey.",
+                "Send out a survey to all employees via email and use the first 100 responses.",
+                "Use a systematic sampling method to choose every 10th employee from the company directory.",
+                "Conduct a stratified random sample based on the departments and job positions within the company."
+            ],
+            "correct_answer": "d",
+            "whyCorrectAnswer": "D because stratified random sampling ensures representation across all departments and job positions, allowing for more accurate assessment of job satisfaction across the company.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "To determine the average sale value per customer in a retail store, which of the following would yield the most reliable estimate?",
+            "type": "multiple_choice",
+            "options": [
+                "Calculating the mean sale value from Black Friday sales.",
+                "Calculating the mean sale value for all customers during a normal business week.",
+                "Using the median sale value of all customers in the past year.",
+                "Taking the average sale value of the top 100 customers from the last quarter."
+            ],
+            "correct_answer": "b",
+            "whyCorrectAnswer": "B because calculating the mean from a typical business week minimizes the influence of peak sales periods and outliers, offering a more representative average.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "An environmental agency wants to measure the average daily water usage of households in a city. Which of the following techniques will most likely lead to an accurate estimate?",
+            "type": "multiple_choice",
+            "options": [
+                "Measuring the water usage in households of the agency's employees.",
+                "Measuring water usage from random households throughout the city on Saturdays.",
+                "Collecting water usage data from a different neighborhood each day, randomly selected.",
+                "Taking the water usage readings from the most affluent neighborhoods and extrapolating data for the whole city."
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "C because by collecting data from randomly selected neighborhoods on different days, the agency will acquire a diverse and representative sample of the city's water usage patterns.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "The town mayor wants to estimate the proportion of town residents who are in favor of a new public transportation initiative. The most effective survey strategy would be to:",
+            "type": "multiple_choice",
+            "options": [
+                "Ask each member of the town council for their opinion on the matter.",
+                "Conduct a survey during a town hall meeting.",
+                "Use a random digit dialing technique to conduct phone surveys with a representative sample of residents.",
+                "Distribute surveys to town residents who attend the next public festivity."
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "C because using random digit dialing allows for a sample that is inclusive of residents with varying schedules and interests, likely representing the broader opinion.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "A college is interested in the post-graduation employment status of its alumni. Which method would provide the most reliable data?",
+            "type": "multiple_choice",
+            "options": [
+                "Tracking the employment status of alumni who were on the honor roll.",
+                "Using social media statuses of alumni who publicly post about their jobs.",
+                "Sending an employment survey to a random sample of alumni and using the collected data.",
+                "Discussing with the faculty about the employment status of former students they maintain contact with."
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "C because sending a survey to a random sample of alumni minimizes selection bias and should yield more accurate generalized conclusions.",
+            "difficulty": 3
+        },
+        {
+            "id": "8",
+            "question": "A health organization wants to estimate the average calorie intake of teenagers. Which approach will most likely minimize sampling bias?",
+            "type": "multiple_choice",
+            "options": [
+                "Surveying teenagers at a local gym.",
+                "Collecting one-day food diaries from a random sample of teenagers across several schools.",
+                "Asking parents to estimate their teenagers' calorie intake.",
+                "Using nutritional information from fast food restaurants most frequented by teenagers."
+            ],
+            "correct_answer": "b",
+            "whyCorrectAnswer": "B because collecting food diaries from a random sample allows for a broader representation of different eating habits among teenagers.",
+            "difficulty": 4
+        },
+        {
+            "id": "9",
+            "question": "A researcher wishes to study the exercise habits of adults in a large city. Which method would yield data that is the least biased and most accurate?",
+            "type": "multiple_choice",
+            "options": [
+                "Observing adults at a popular city park on a weekend.",
+                "Surveying only adults who are members of a city-run fitness program.",
+                "Using a cluster sampling method to survey adults in various residential blocks throughout the city.",
+                "Interviewing a volunteer sample of adults attending a health fair."
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "C because cluster sampling across different residential blocks will allow for a diverse cross-section of the city's adult population and their exercise habits.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "A business analyst wants to understand why certain products are returned more frequently than others. What is the most effective method to obtain valid data?",
+            "type": "multiple_choice",
+            "options": [
+                "Surveying customers who have returned products within the last month.",
+                "Interviewing the sales team for their opinions on product quality.",
+                "Analyzing return data for the entire past year, categorizing returns by product and reason provided.",
+                "Reviewing only returns made during the holiday season to predict trends."
+            ],
+            "correct_answer": "c",
+            "whyCorrectAnswer": "C because analyzing comprehensive return data for a significant period provides an objective and quantifiable method to understand return patterns and reasons.",
+            "difficulty": 3
+        },
+        {
+            "id": "11",
+            "question": "A city's department of transportation wants to assess the average commute time for workers during peak hours. Which of the following data collection methods would produce the most reliable information?",
+            "type": "multiple_choice",
+            "options": [
+                "Questioning workers as they enter the downtown area via public transport during rush hour.",
+                "Gathering GPS-based travel time data from a random sample of vehicles during peak commute times.",
+                "Interviewing workers at a local coffee shop about their commute times.",
+                "Relying on self-reported commute times posted on social media by residents."
+            ],
+            "correct_answer": "b",
+            "whyCorrectAnswer": "B because gathering GPS-based data helps in capturing real-time, unbiased travel times of a random sample of vehicles, thus providing a more accurate measure of commute times.",
+            "difficulty": 4
+        }
+    ]
+}

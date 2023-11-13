@@ -1,0 +1,160 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "If i = \u221a(-1), what is the product of 2i and (3 - 4i)?",
+            "type": "multiple_choice",
+            "options": [
+                "6i + 8",
+                "8 - 6i",
+                "-6 + 8i",
+                "6 - 8i"
+            ],
+            "correct_answer": "8 - 6i",
+            "whyCorrectAnswer": "Multiplying 2i by 3 gives 6i and 2i by -4i gives -8i^2. Since i^2 equals -1, the result is 6i + 8.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "For i = \u221a(-1), what is (4i)(4i)?",
+            "type": "multiple_choice",
+            "options": [
+                "16",
+                "-16",
+                "16i",
+                "-16i"
+            ],
+            "correct_answer": "-16",
+            "whyCorrectAnswer": "Multiplying 4i by 4i gives 16i^2, and since i^2 is -1, the result is -16.",
+            "difficulty": 1
+        },
+        {
+            "id": "3",
+            "question": "If i = \u221a(-1), what is the absolute value of the complex number 3 + 4i?",
+            "type": "multiple_choice",
+            "options": [
+                "5",
+                "7",
+                "\u221a7",
+                "12"
+            ],
+            "correct_answer": "5",
+            "whyCorrectAnswer": "The absolute value of a complex number a + bi is \u221a(a^2 + b^2). Here, it is \u221a(3^2 + 4^2) = \u221a(9 + 16) = \u221a25 = 5.",
+            "difficulty": 2
+        },
+        {
+            "id": "4",
+            "question": "For i = \u221a(-1), what is the conjugate of the complex number 3 - 5i?",
+            "type": "multiple_choice",
+            "options": [
+                "3 - 5i",
+                "3 + 5",
+                "-3 + 5i",
+                "3 + 5i"
+            ],
+            "correct_answer": "3 + 5i",
+            "whyCorrectAnswer": "The conjugate of a complex number a - bi is a + bi.",
+            "difficulty": 1
+        },
+        {
+            "id": "5",
+            "question": "What is the result of dividing the complex numbers (1 + 2i) by (3 - i)?",
+            "type": "multiple_choice",
+            "options": [
+                "1 + i",
+                "1/10 + 7/10 i",
+                "(3 + 7i) / 10",
+                "-1/10 + 7/10 i"
+            ],
+            "correct_answer": "(3 + 7i) / 10",
+            "whyCorrectAnswer": "To divide complex numbers, we multiply numerator and denominator by the conjugate of the denominator. (1 + 2i)(3 + i) / (3 - i)(3 + i) yields (3 + i + 6i - 2) / (9 + 1) = (1 + 7i) / 10 which simplifies to 1/10 + 7/10 i.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "If i = \u221a(-1), and (a + bi)^2 = -7 + 24i, what are the values of a and b?",
+            "type": "multiple_choice",
+            "options": [
+                "a = 4, b = -3",
+                "a = 3, b = 4",
+                "a = -4, b = 3",
+                "a = -3, b = 4"
+            ],
+            "correct_answer": "a = 3, b = 4",
+            "whyCorrectAnswer": "Expanding (a + bi)^2 gives a^2 - b^2 + 2abi. Matching terms, a^2 - b^2 must equal -7 and 2ab must equal 24. The only possible integer solutions that satisfy these equations are a = 3, b = 4.",
+            "difficulty": 5
+        },
+        {
+            "id": "7",
+            "question": "What is the simplified form of the expression i^23?",
+            "type": "multiple_choice",
+            "options": [
+                "i",
+                "-i",
+                "1",
+                "-1"
+            ],
+            "correct_answer": "-i",
+            "whyCorrectAnswer": "The powers of i cycle every 4 powers: i, -1, -i, 1 and back to i. So, i^23 is equivalent to i^(20+3), which is the same as (i^4)^5 * i^3, simplifying to 1^5 * i^3, which is just i^3 or -i.",
+            "difficulty": 2
+        },
+        {
+            "id": "8",
+            "question": "If z is a complex number such that z * conjugate(z) = 1, which of the following could represent z?",
+            "type": "multiple_choice",
+            "options": [
+                "1 + i",
+                "1 - i",
+                "i",
+                "-i",
+                "1/\u221a2 + i/\u221a2"
+            ],
+            "correct_answer": "1/\u221a2 + i/\u221a2",
+            "whyCorrectAnswer": "For a complex number a + bi, z * conjugate(z) equals (a + bi)(a - bi) = a^2 + b^2. For this to equal 1, a^2 + b^2 must equal 1, which is true for a = b = 1/\u221a2.",
+            "difficulty": 3
+        },
+        {
+            "id": "9",
+            "question": "What is the imaginary part of the complex number after simplifying (8 + 2i) + (3i) - (4 - i)?",
+            "type": "multiple_choice",
+            "options": [
+                "6",
+                "5",
+                "4",
+                "2"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "Simplifying the complex numbers, (8 + 2i) + (3i) - (4 - i) gives 8 + 2i + 3i - 4 + i, which simplifies to 4 + 6i. The imaginary part is 6i, so 6 is the correct answer.",
+            "difficulty": 2
+        },
+        {
+            "id": "10",
+            "question": "Given that z = 3 - 4i, what is the value of z^2?",
+            "type": "multiple_choice",
+            "options": [
+                "7 - 24i",
+                "-7 + 24i",
+                "25",
+                "-25"
+            ],
+            "correct_answer": "-7 + 24i",
+            "whyCorrectAnswer": "Squaring the complex number z = 3 - 4i, we get z^2 = (3 - 4i)^2 = 9 - 24i + 16i^2. Since i^2 = -1, the result is 9 - 24i - 16, which simplifies to -7 + 24i.",
+            "difficulty": 3
+        },
+        {
+            "id": "11",
+            "question": "If i = \u221a(-1), how many distinct solutions does the equation x^4 + 1 = 0 have in the complex number system?",
+            "type": "multiple_choice",
+            "options": [
+                "2",
+                "4",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer": "4",
+            "whyCorrectAnswer": "The equation x^4 = -1 has four complex solutions because the quartic equation always has four solutions in the complex number system, accounting for multiplicity.",
+            "difficulty": 4
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "An airplane travels at a speed of 600 miles per hour. Approximately what is the plane's speed in kilometers per hour? (1 mile \u2248 1.61 kilometers)",
+            "type": "multiple_choice",
+            "options": [
+                "A) 400",
+                "B) 666",
+                "C) 865",
+                "D) 966"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C is correct because 600 miles/hour \u00d7 1.61 kilometers/mile \u2248 966 kilometers/hour.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "After researching exchange rates, Daniel finds that 1 Brazilian Real is equivalent to 0.19 US dollars. If he wants to exchange his 1500 Brazilian Reais, approximately how many US dollars will he receive?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 190",
+                "B) 285",
+                "C) 300",
+                "D) 750"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B is correct because 1500 Brazilian Reais \u00d7 0.19 USD/Real \u2248 285 US dollars.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "A submarine cable needs to be laid from the coast of California to Hawaii over a distance of 2,390 nautical miles. Approximately how many kilometers long is the cable? (1 nautical mile \u2248 1.852 kilometers)",
+            "type": "multiple_choice",
+            "options": [
+                "A) 2,210",
+                "B) 3,000",
+                "C) 4,428",
+                "D) 4,643"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C is correct because 2,390 nautical miles \u00d7 1.852 kilometers/nautical mile \u2248 4,428 kilometers.",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "A hiker takes 4 hours and 30 minutes to complete a trail. What is the total time in seconds that the hiker spends on the trail?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 15,300",
+                "B) 16,200",
+                "C) 16,800",
+                "D) 18,000"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B is correct because 4.5 hours \u00d7 60 minutes/hour \u00d7 60 seconds/minute = 16,200 seconds.",
+            "difficulty": 2
+        },
+        {
+            "id": "5",
+            "question": "If a recipe requires 750 milliliters of water, but a chef only has a measuring cup marked in fluid ounces, approximately how many fluid ounces should the chef use? (1 fluid ounce \u2248 29.5735 milliliters)",
+            "type": "multiple_choice",
+            "options": [
+                "A) 24.45",
+                "B) 25.36",
+                "C) 26.49",
+                "D) 27.51"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B is correct because 750 milliliters \u00f7 29.5735 milliliters/fluid ounce \u2248 25.36 fluid ounces.",
+            "difficulty": 2
+        },
+        {
+            "id": "6",
+            "question": "Eloise is planning a road trip across Europe and anticipates driving 1,000 kilometers. Her car's fuel efficiency is rated at 15 kilometers per liter. Approximately how many gallons of fuel will she need for her trip if 1 liter is equivalent to 0.264172 gallons?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 17.5",
+                "B) 44.4",
+                "C) 70.0",
+                "D) 175.1"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "A is correct because 1,000 km \u00f7 15 km/liter \u00d7 0.264172 gallons/liter \u2248 17.5 gallons.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "During a marathon, a runner has to cover a distance of 26.2 miles. How many meters does the runner complete if 1 mile is approximately 1609.34 meters?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 35,404",
+                "B) 42,165",
+                "C) 53,100",
+                "D) 62,150"
+            ],
+            "correct_answer": "B",
+            "whyCorrectAnswer": "B is correct because 26.2 miles \u00d7 1609.34 meters/mile \u2248 42,165 meters.",
+            "difficulty": 2
+        },
+        {
+            "id": "8",
+            "question": "Marco is converting temperatures from Celsius to Fahrenheit. If the temperature in Celsius is 20 degrees, what is the temperature in Fahrenheit? (Use the formula F = (C \u00d7 9/5) + 32)",
+            "type": "multiple_choice",
+            "options": [
+                "A) 52",
+                "B) 64",
+                "C) 68",
+                "D) 72"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C is correct because F = (20 \u00d7 9/5) + 32 \u2248 68 degrees Fahrenheit.",
+            "difficulty": 1
+        },
+        {
+            "id": "9",
+            "question": "A swimming pool is being filled with water at a rate of 2 cubic meters per hour. If the pool has a volume of 50 cubic meters, approximately how many gallons of water are needed to fill the pool completely? (1 cubic meter \u2248 264.172 gallons)",
+            "type": "multiple_choice",
+            "options": [
+                "A) 13,208.6",
+                "B) 11,000",
+                "C) 10,208.6",
+                "D) 9,275.8"
+            ],
+            "correct_answer": "A",
+            "whyCorrectAnswer": "A is correct because 50 cubic meters \u00d7 264.172 gallons/cubic meter \u2248 13,208.6 gallons.",
+            "difficulty": 3
+        },
+        {
+            "id": "10",
+            "question": "If a mountain's elevation is 1,225 meters above sea level, what is its elevation in feet? (1 meter \u2248 3.28084 feet)",
+            "type": "multiple_choice",
+            "options": [
+                "A) 3,021",
+                "B) 3,468",
+                "C) 4,021",
+                "D) 4,219"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C is correct because 1,225 meters \u00d7 3.28084 feet/meter \u2248 4,021 feet.",
+            "difficulty": 3
+        },
+        {
+            "id": "11",
+            "question": "In a physics experiment, a weight of 10 newtons is applied to an object at sea level where the acceleration due to gravity is 9.8 meters/second^2. Approximately how many pounds of force are being applied if 1 newton \u2248 0.224809 pounds force?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 1.5",
+                "B) 2.2",
+                "C) 2.25",
+                "D) 3.5"
+            ],
+            "correct_answer": "C",
+            "whyCorrectAnswer": "C is correct because 10 newtons \u00d7 0.224809 pounds force/newton \u2248 2.25 pounds force.",
+            "difficulty": 3
+        }
+    ]
+}

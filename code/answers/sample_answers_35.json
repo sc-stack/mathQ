@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Two triangles are drawn on a plane such that triangle ABC and triangle DEF have two sets of corresponding sides equal, with AB equal to DE and BC equal to EF. If angle ABC measures 70 degrees and angle BAC measures 40 degrees, what is the measure of angle DFE?",
+            "type": "multiple_choice",
+            "options": [
+                "70 degrees",
+                "110 degrees",
+                "40 degrees",
+                "50 degrees"
+            ],
+            "correct_answer": "70 degrees",
+            "whyCorrectAnswer": "Since AB equals DE and BC equals EF, by the Side-Angle-Side (SAS) criterion, triangles ABC and DEF are congruent, making angle DFE equal to angle ABC, which is 70 degrees.",
+            "difficulty": 3
+        },
+        {
+            "id": "2",
+            "question": "Right triangles XYZ and ABC are similar. The hypotenuse of triangle XYZ is twice as long as the hypotenuse of triangle ABC. The leg XY of triangle XYZ is 12 units. What is the length of the corresponding leg AB in triangle ABC?",
+            "type": "multiple_choice",
+            "options": [
+                "24 units",
+                "6 units",
+                "12 units",
+                "18 units"
+            ],
+            "correct_answer": "6 units",
+            "whyCorrectAnswer": "In similar right triangles the corresponding sides are proportional. If the hypotenuse of XYZ is twice as long, its legs must also be twice as long as those in ABC. Thus, AB must be half the length of XY, giving us 6 units.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "In triangle ABC, the length of side BC is 10 units and the lengths of sides AB and AC are both 13 units. Triangle DEF is similar to triangle ABC with its longest side DE having a length of 26 units. What is the length of side EF?",
+            "type": "multiple_choice",
+            "options": [
+                "5 units",
+                "20 units",
+                "10 units",
+                "13 units"
+            ],
+            "correct_answer": "20 units",
+            "whyCorrectAnswer": "Since triangles ABC and DEF are similar, their corresponding sides are in proportion. The longest side DE corresponds to AB or AC, which means the scale factor is 2 (26/13). Therefore, the length of EF is 10 times 2, which is 20 units.",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "Triangle PQR and triangle STU are similar. The ratio of the lengths of corresponding sides PQ to ST is 1:3. If the perimeter of triangle PQR is 12 units, what is the perimeter of triangle STU?",
+            "type": "multiple_choice",
+            "options": [
+                "36 units",
+                "48 units",
+                "24 units",
+                "None of the above"
+            ],
+            "correct_answer": "36 units",
+            "whyCorrectAnswer": "The perimeters of similar triangles are in the same ratio as the lengths of their corresponding sides. Since PQ:ST is 1:3, the ratio of their perimeters is also 1:3. Therefore, the perimeter of STU is 3 times 12 units, which is 36 units.",
+            "difficulty": 2
+        },
+        {
+            "id": "5",
+            "question": "If triangle ABC is similar to triangle DEF, and the ratio of the area of triangle ABC to triangle DEF is 1:4, what is the ratio of their corresponding side lengths?",
+            "type": "multiple_choice",
+            "options": [
+                "1:2",
+                "1:4",
+                "2:1",
+                "4:1"
+            ],
+            "correct_answer": "1:2",
+            "whyCorrectAnswer": "The ratio of the areas of similar triangles is the square of the ratio of their corresponding side lengths. Therefore, if the area ratio is 1:4, the side length ratio must be the square root of 1:4, which is 1:2.",
+            "difficulty": 2
+        },
+        {
+            "id": "6",
+            "question": "In triangles GHI and JKL, GH is congruent to JK, HI is congruent to KL, and angle GHI is congruent to angle JKL. If the length of side GI is 8 units, which two additional pieces of information would be sufficient to prove that triangle GHI is congruent to triangle JKL?",
+            "type": "multiple_choice",
+            "options": [
+                "GI is congruent to JL and angle GIH is congruent to angle JLK",
+                "Angle IGH is congruent to angle KJL and the triangles have equal areas",
+                "Angle GIH is congruent to angle JLK and GI is congruent to JL",
+                "The triangles have equal perimeters and angle GIH is congruent to angle JLK"
+            ],
+            "correct_answer": "GI is congruent to JL and angle GIH is congruent to angle JLK",
+            "whyCorrectAnswer": "Having two sides and the included angle (SAS) congruent is enough to prove that two triangles are congruent. If GI is congruent to JL, and angle GIH is congruent to angle JLK, along with the given congruent sides and angles, triangle GHI would be congruent to triangle JKL.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "If the sides of triangle ABC are in the ratio of 3:4:5 and the shortest side of a similar triangle DEF is 9 units long, what is the length of the longest side of triangle DEF?",
+            "type": "multiple_choice",
+            "options": [
+                "15 units",
+                "12 units",
+                "9 units",
+                "18 units"
+            ],
+            "correct_answer": "15 units",
+            "whyCorrectAnswer": "The sides of a 3:4:5 triangle are proportional. If the shortest side of DEF is 9 units, which corresponds to the side with a ratio of 3, then the scale factor is 3 (9/3). The longest side of DEF, corresponding to the ratio of 5, is 5 times the scale factor, which is 15 units.",
+            "difficulty": 2
+        },
+        {
+            "id": "8",
+            "question": "Triangles ABC and XYZ are similar. If angle B measures 80 degrees and angle X measures 60 degrees, what is the measure of angle Z?",
+            "type": "multiple_choice",
+            "options": [
+                "40 degrees",
+                "60 degrees",
+                "80 degrees",
+                "100 degrees"
+            ],
+            "correct_answer": "40 degrees",
+            "whyCorrectAnswer": "Since triangles ABC and XYZ are similar, the sum of their angles is the same (180 degrees for both). If angle B is 80 degrees, angle A must be 40 degrees, as angle C would then be 60 degrees to make the sum 180. Since angle X is 60 degrees, angle Z must be 180 - 60 - 80 = 40 degrees.",
+            "difficulty": 3
+        },
+        {
+            "id": "9",
+            "question": "Given two similar triangles RST and UVW where the lengths of sides RS and UV are in the ratio 5:9. If the area of triangle RST is 25 square units, what is the area of triangle UVW?",
+            "type": "multiple_choice",
+            "options": [
+                "25 square units",
+                "81 square units",
+                "45 square units",
+                "125 square units"
+            ],
+            "correct_answer": "81 square units",
+            "whyCorrectAnswer": "The areas of similar triangles are in the ratio of the squares of corresponding sides. Since the side lengths are in the ratio 5:9, the area ratio is 5^2:9^2, or 25:81. Thus, if the area of RST is 25 square units, then the area of UVW is 25 multiplied by the ratio of the areas (81/25), which equals 81 square units.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "In triangle ABC with sides a, b, and c, it is known that a:b:c = 2:3:4. If triangle DEF is similar to triangle ABC and side d is 6 units long, what is the length of side e?",
+            "type": "multiple_choice",
+            "options": [
+                "9 units",
+                "12 units",
+                "6 units",
+                "18 units"
+            ],
+            "correct_answer": "9 units",
+            "whyCorrectAnswer": "Since the triangles are similar, their sides are proportional. If a:b = 2:3, and side d corresponds to side a and is 6 units long, the length of side e corresponding to side b would be (3/2)*6 units, which is 9 units.",
+            "difficulty": 3
+        },
+        {
+            "id": "11",
+            "question": "Triangle PQR has sides of 7 cm, 24 cm, and 25 cm, respectively. Triangle STU is similar to triangle PQR and has its longest side TU measuring 50 cm. What is the length of side ST?",
+            "type": "multiple_choice",
+            "options": [
+                "14 cm",
+                "7 cm",
+                "48 cm",
+                "24 cm"
+            ],
+            "correct_answer": "14 cm",
+            "whyCorrectAnswer": "The longest side of PQR is 25 cm, so the scale factor for TU (50 cm) over the corresponding side in PQR (25 cm) is 50/25 = 2. The side corresponding to ST in PQR would be the shortest side, which is 7 cm. Therefore, ST in triangle STU is 7 cm times the scale factor, which is 14 cm.",
+            "difficulty": 3
+        }
+    ]
+}

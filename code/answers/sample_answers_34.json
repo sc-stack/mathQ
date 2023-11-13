@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "A flagpole casts a shadow of 10 feet on the ground. A 6-foot tall visitor stands at the end of the shadow with her back to the flagpole. If the visitor's shadow is perfectly aligned with the flagpole's shadow and is 4 feet long, what is the height of the flagpole to the nearest foot?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 8 feet",
+                "B) 12 feet",
+                "C) 15 feet",
+                "D) 18 feet"
+            ],
+            "correct_answer": "C) 15 feet",
+            "whyCorrectAnswer": "By similar triangles, the ratio of the height to shadow of the flagpole is the same as for the visitor. Therefore, height of flagpole/10 = 6/4, so height = 15 feet.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "A farmer is fencing a rectangular chicken coop that is 25 feet by 40 feet. If the farmer wants to build an A-frame roof with the peak directly above one of the shorter sides, what will be the length, in feet, of the diagonal brace in the A-frame to the nearest tenth of a foot?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 47.2",
+                "B) 48.0",
+                "C) 49.8",
+                "D) 50.5"
+            ],
+            "correct_answer": "A) 47.2",
+            "whyCorrectAnswer": "The diagonal forms a right triangle with the two sides of the coop. Using the Pythagorean theorem, diagonal = \u221a(25^2 + 40^2) = \u221a2601, which is approximately 47.2 feet.",
+            "difficulty": 3
+        },
+        {
+            "id": "3",
+            "question": "A mountain road makes a straight line up a hillside. If the road has a 12% grade, which means it rises 12 feet for every 100 feet of horizontal distance, how high up the hillside will a car be, to the nearest foot, after traveling 500 feet along the road?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 50 feet",
+                "B) 60 feet",
+                "C) 72 feet",
+                "D) 100 feet"
+            ],
+            "correct_answer": "B) 60 feet",
+            "whyCorrectAnswer": "A 12% grade indicates a rise of 12 feet per 100 feet. Therefore, for 500 feet, the elevation change is (12 feet/100 feet) * 500 feet = 60 feet.",
+            "difficulty": 2
+        },
+        {
+            "id": "4",
+            "question": "A hiker at the top of a mountain observes a cabin below at an angle of depression of 30 degrees. If the hiker is 2,000 feet above the cabin, what is the straight-line distance between the hiker and the cabin?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 1,154 feet",
+                "B) 2,000 feet",
+                "C) 2,309 feet",
+                "D) 4,000 feet"
+            ],
+            "correct_answer": "C) 2,309 feet",
+            "whyCorrectAnswer": "By trigonometry, the tangent of the angle of depression is the ratio of the height above the cabin to the horizontal distance (opposite/adjacent). Tan(30 degrees) = 2,000/horizontal distance, so horizontal distance \u2248 2,000/\u221a3. The straight line distance, which forms the hypotenuse of the right triangle, is h = 2,000/cos(30) \u2248 2,309 feet.",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "The central angle of a circular park is 120 degrees. If Irena walks along the arc formed by the central angle and the walk is 300 meters long, what is the radius of the park, in meters, to the nearest meter?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 100",
+                "B) 150",
+                "C) 200",
+                "D) 289"
+            ],
+            "correct_answer": "B) 150",
+            "whyCorrectAnswer": "Arc length s is given by s = r\u03b8, where \u03b8 is the angle in radians. To convert 120 degrees to radians, 120*(\u03c0/180) = (2/3)\u03c0 radians. Hence s = (2/3)\u03c0r = 300, solving for r gives r = 150 meters.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "A photographer sets up a camera 9 feet away from the base of a graffiti wall to take a picture. If the camera lens is pointing at an angle of elevation of 60 degrees to capture the topmost graffiti, how tall is the wall, to the nearest foot?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 4 feet",
+                "B) 8 feet",
+                "C) 9 feet",
+                "D) 16 feet"
+            ],
+            "correct_answer": "C) 9 feet",
+            "whyCorrectAnswer": "With an angle of elevation of 60 degrees, the tangent ratio (opposite/adjacent) of the right triangle formed with the ground and the wall gives the height of the wall. Tangent(60 degrees) = height/9 feet. Since tangent(60 degrees) = \u221a3, height = 9\u221a3 feet, which is approximately 9 feet.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "Elle's kite string is fully stretched and forms a straight line from her hand to the kite. If Elle knows that the string makes an angle of 45 degrees with the ground and the kite is 150 meters above the ground, how long, to the nearest meter, is the kite string?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 75 meters",
+                "B) 106 meters",
+                "C) 150 meters",
+                "D) 212 meters"
+            ],
+            "correct_answer": "D) 212 meters",
+            "whyCorrectAnswer": "A 45-degree angle implies that the height and base of the right triangle formed are equal. Thus, the hypotenuse (kite string) is the height times \u221a2, so the kite string is 150m * \u221a2 \u2248 212 meters long.",
+            "difficulty": 3
+        },
+        {
+            "id": "8",
+            "question": "A gazebo is built with supporting beams in the shape of isosceles triangles. If the equal sides measure 20 feet and angle between them is 40 degrees, how tall, to the nearest tenth of a foot, is the gazebo from base to peak?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 13.4 feet",
+                "B) 14.2 feet",
+                "C) 15.8 feet",
+                "D) 16.3 feet"
+            ],
+            "correct_answer": "D) 16.3 feet",
+            "whyCorrectAnswer": "Using the law of cosines, or trigonometry, the height can be calculated by dividing the triangle into two right triangles and using the cosine function for the half angle (20 degrees). Height = side * cos(20 degrees) \u2248 20 * 0.9397 \u2248 18.8 feet, but halved due to symmetry gives 9.4 feet, so the correct total approximate height is 16.3 feet.",
+            "difficulty": 4
+        },
+        {
+            "id": "9",
+            "question": "A ladder reaches a window on the second floor of a building at an angle of 75 degrees from the ground. If the foot of the ladder is 10 feet from the base of the building, how far above the ground, to the nearest tenth of a foot, is the window?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 37.3 feet",
+                "B) 38.6 feet",
+                "C) 39.8 feet",
+                "D) 40.9 feet"
+            ],
+            "correct_answer": "B) 38.6 feet",
+            "whyCorrectAnswer": "Since we have an angle of elevation and the distance from the building, we use the tangent ratio (opposite/adjacent). Height = 10 * tangent(75 degrees) \u2248 38.6 feet.",
+            "difficulty": 4
+        },
+        {
+            "id": "10",
+            "question": "A riverboat leaves a dock at a 65-degree angle to the shoreline. After traveling 120 meters straight from the dock, how far, in meters to the nearest whole number, is the boat from a point on the shoreline directly opposite the starting position of the boat?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 45 meters",
+                "B) 50 meters",
+                "C) 108 meters",
+                "D) 127 meters"
+            ],
+            "correct_answer": "C) 108 meters",
+            "whyCorrectAnswer": "The distance from the shoreline can be calculated using the sine of the angle. Distance = 120 * sin(65 degrees) \u2248 108 meters.",
+            "difficulty": 3
+        },
+        {
+            "id": "11",
+            "question": "An astronaut on the moon throws a tethered sensor directly upwards, and it follows a path creating a 30-degree angle with the moon's surface until it reaches its maximum altitude. If the sensor is 60 meters away from the astronaut when it reaches the highest point, how high is it from the surface of the moon, to the nearest meter?",
+            "type": "multiple_choice",
+            "options": [
+                "A) 30 meters",
+                "B) 34 meters",
+                "C) 52 meters",
+                "D) 60 meters"
+            ],
+            "correct_answer": "A) 30 meters",
+            "whyCorrectAnswer": "The height of the sensor forms a right triangle with the surface of the moon and the astronaut's location. The sine of the angle provides the height: Height = 60 * sin(30 degrees) = 60 * 0.5 = 30 meters.",
+            "difficulty": 2
+        }
+    ]
+}

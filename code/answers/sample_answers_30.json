@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Researchers found that 2.5% of the 240,000 plants studied in a region are a rare species. If the region has 10 million plants, estimate the number of rare species plants.",
+            "type": "multiple_choice",
+            "options": [
+                "250,000",
+                "200,000",
+                "25,000",
+                "2,500"
+            ],
+            "correct_answer": "250,000",
+            "whyCorrectAnswer": "To find the number of rare species plants, you must calculate 2.5% of 10 million. 2.5% of 10 million is 250,000.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "In a medical study, 1.2% of 500,000 individuals showed a rare reaction to a medication. If the medication is administered to 50 million individuals, estimate how many would likely show the rare reaction.",
+            "type": "multiple_choice",
+            "options": [
+                "500,000",
+                "600,000",
+                "120,000",
+                "60,000"
+            ],
+            "correct_answer": "600,000",
+            "whyCorrectAnswer": "1.2% of 50 million calculates to 600,000 individuals showing the rare reaction.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "Jones Bicycle Company found that 3% of 1,000 bicycles inspected had a manufacturing defect. If the company produced 400,000 bicycles this year, estimate the number of bicycles that had a manufacturing defect.",
+            "type": "multiple_choice",
+            "options": [
+                "12,000",
+                "1,200",
+                "120",
+                "12"
+            ],
+            "correct_answer": "12,000",
+            "whyCorrectAnswer": "3% of 400,000 is 12,000, which is the estimated number of bicycles with a defect.",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "A survey of 350,000 vehicles on the road found that 0.4% have tires due for replacement. If there are 70 million vehicles on the road, how many vehicles likely have tires needing replacement?",
+            "type": "multiple_choice",
+            "options": [
+                "280,000",
+                "2,800",
+                "28,000",
+                "280"
+            ],
+            "correct_answer": "280,000",
+            "whyCorrectAnswer": "0.4% of 70 million vehicles is 280,000, which is the estimated number of vehicles with tires due for replacement.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "During an archaeological dig, it was observed that 0.6% of the stones uncovered had ancient carvings. If a million stones were examined, how many had these carvings?",
+            "type": "multiple_choice",
+            "options": [
+                "60",
+                "600",
+                "6,000",
+                "60,000"
+            ],
+            "correct_answer": "6,000",
+            "whyCorrectAnswer": "0.6% of 1 million stones is 6,000, which would be the estimated number with ancient carvings.",
+            "difficulty": 2
+        },
+        {
+            "id": "6",
+            "question": "A tech company observes that, out of 150 software trials, 5% lead to a subscription. If the trial is offered to 800,000 users, how many subscriptions can be expected?",
+            "type": "multiple_choice",
+            "options": [
+                "40,000",
+                "4,000",
+                "400",
+                "40"
+            ],
+            "correct_answer": "40,000",
+            "whyCorrectAnswer": "5% of 800,000 users is 40,000, expected to lead to subscriptions.",
+            "difficulty": 2
+        },
+        {
+            "id": "7",
+            "question": "A publishing firm finds that 3.5% of 10,000 book submissions are accepted for publishing. Given that the firm receives 500,000 submissions a year, how many books are expected to be accepted?",
+            "type": "multiple_choice",
+            "options": [
+                "1,750",
+                "17,500",
+                "175,000",
+                "17"
+            ],
+            "correct_answer": "17,500",
+            "whyCorrectAnswer": "3.5% of 500,000 is 17,500 books expected to be accepted for publishing.",
+            "difficulty": 3
+        },
+        {
+            "id": "8",
+            "question": "In a particular city, it was found that about 7% of the 80,000 traffic lights are malfunctioning at any given time. If the city has 160,000 traffic lights in total, estimate how many are expected to malfunction.",
+            "type": "multiple_choice",
+            "options": [
+                "1,120",
+                "11,200",
+                "112,000",
+                "11"
+            ],
+            "correct_answer": "11,200",
+            "whyCorrectAnswer": "7% of 160,000 is 11,200, which is the number of traffic lights expected to malfunction.",
+            "difficulty": 4
+        },
+        {
+            "id": "9",
+            "question": "A grocery store chain learns that 2.3% of 50,000 surveyed customers are unsatisfied with product freshness. If the chain has 2 million customers, how many may be unsatisfied with product freshness?",
+            "type": "multiple_choice",
+            "options": [
+                "4,600",
+                "46,000",
+                "460",
+                "46"
+            ],
+            "correct_answer": "46,000",
+            "whyCorrectAnswer": "2.3% of 2 million is 46,000 customers likely to be unsatisfied with product freshness.",
+            "difficulty": 3
+        },
+        {
+            "id": "10",
+            "question": "A human resources agency determined that about 1% of 200,000 job applications contain errors. If 5 million applications are processed, estimate the total number containing errors.",
+            "type": "multiple_choice",
+            "options": [
+                "50,000",
+                "500,000",
+                "5,000",
+                "500"
+            ],
+            "correct_answer": "50,000",
+            "whyCorrectAnswer": "1% of 5 million is 50,000 applications expected to contain errors.",
+            "difficulty": 2
+        },
+        {
+            "id": "11",
+            "question": "A mobile phone service provider notices that 4.5% of 40,000 service calls per month are due to billing issues. If the provider fields 800,000 service calls a month, how many calls are likely about billing issues?",
+            "type": "multiple_choice",
+            "options": [
+                "36,000",
+                "3,600",
+                "360",
+                "36"
+            ],
+            "correct_answer": "36,000",
+            "whyCorrectAnswer": "4.5% of 800,000 service calls is 36,000, likely relating to billing issues.",
+            "difficulty": 3
+        }
+    ]
+}

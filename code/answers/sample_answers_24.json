@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "In a school election, the winner received 315 votes, which was 35% of the total number of votes cast. How many total votes were cast in the election?",
+            "type": "multiple_choice",
+            "options": [
+                "900",
+                "899",
+                "902",
+                "890"
+            ],
+            "correct_answer": "900",
+            "whyCorrectAnswer": "Let x represent the total number of votes. 35% of x = 315 votes. So, 0.35x = 315. Dividing both sides by 0.35 gives x = 900.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "A car dealership marks the price of its cars at a 32% profit on the cost price. If a car sold for $26,400, what was the cost price of the car?",
+            "type": "multiple_choice",
+            "options": [
+                "$20,000",
+                "$22,000",
+                "$19,500",
+                "$18,000"
+            ],
+            "correct_answer": "$20,000",
+            "whyCorrectAnswer": "$26,400 represents 132% of the cost price. To find the cost price (100%), we divide $26,400 by 1.32, yielding a cost price of $20,000.",
+            "difficulty": 3
+        },
+        {
+            "id": "3",
+            "question": "An investor loses 12% of her investment. If her loss amounts to $7,200, what was the total amount of her original investment?",
+            "type": "multiple_choice",
+            "options": [
+                "$60,000",
+                "$50,000",
+                "$55,000",
+                "$70,000"
+            ],
+            "correct_answer": "$60,000",
+            "whyCorrectAnswer": "Let x be the original investment. 12% of x equals a $7,200 loss: 0.12x = 7,200. So, x = 7,200 / 0.12 = $60,000.",
+            "difficulty": 3
+        },
+        {
+            "id": "4",
+            "question": "A pair of shoes was originally priced at $150. After applying two consecutive discounts of 20% and then 25%, what is the final price of the shoes?",
+            "type": "multiple_choice",
+            "options": [
+                "$90",
+                "$84",
+                "$72",
+                "$69"
+            ],
+            "correct_answer": "$72",
+            "whyCorrectAnswer": "First discount reduces price to $150 - 20%*$150 = $150 - $30 = $120. Second discount reduces further to $120 - 25%*$120 = $120 - $30 = $90.",
+            "difficulty": 4
+        },
+        {
+            "id": "5",
+            "question": "If the original price of an item is increased by a 15% and then reduced by 5%, what is the overall percentage change from the original price?",
+            "type": "multiple_choice",
+            "options": [
+                "9.25%",
+                "8.75%",
+                "9.5%",
+                "10%"
+            ],
+            "correct_answer": "9.25%",
+            "whyCorrectAnswer": "After a 15% increase, the new price is 115% of the original. A 5% reduction of this leads to 95% of 115%, which is 109.25% of the original price, a 9.25% overall increase.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "The population of a city increases by 3% annually. If the current population is 2 million, what is the expected population after two years?",
+            "type": "multiple_choice",
+            "options": [
+                "2.12 million",
+                "2.15 million",
+                "2.18 million",
+                "2.06 million"
+            ],
+            "correct_answer": "2.12 million",
+            "whyCorrectAnswer": "After one year, population = 2 million * 1.03. After two years, it's this value * 1.03 again, thus 2 * (1.03)^2 = 2.12 million.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "A software company prices its product at $500, which includes a markup of 25% of the software's cost to produce. What is the cost to produce the software?",
+            "type": "multiple_choice",
+            "options": [
+                "$400",
+                "$375",
+                "$350",
+                "$315"
+            ],
+            "correct_answer": "$400",
+            "whyCorrectAnswer": "The price of the software is 125% of its cost to produce. So $500 is to 125% as the cost is to 100%, hence cost = ($500 / 1.25).",
+            "difficulty": 2
+        },
+        {
+            "id": "8",
+            "question": "During a summer sale, a store discounts its prices by 30%. If a customer also has a discount coupon that takes an additional 20% off the discounted price, what fraction of the original price does the customer end up paying?",
+            "type": "multiple_choice",
+            "options": [
+                "56/100",
+                "2/5",
+                "7/20",
+                "4/7"
+            ],
+            "correct_answer": "56/100",
+            "whyCorrectAnswer": "Initially the price is 70% of the original after the first discount; with the coupon it's 80% of that discounted price, or 0.7*0.8 = 0.56 or 56/100 of the original.",
+            "difficulty": 4
+        },
+        {
+            "id": "9",
+            "question": "A mobile phone is sold at a profit of 20% over the wholesale price. If the final sale price of the phone is $360, what was the wholesale price?",
+            "type": "multiple_choice",
+            "options": [
+                "$300",
+                "$320",
+                "$340",
+                "$280"
+            ],
+            "correct_answer": "$300",
+            "whyCorrectAnswer": "If the final price represents a 20% profit over the wholesale price, it\u2019s 120% of it. So, 1.20 * wholesale price = $360, hence the wholesale price is $360/1.20.",
+            "difficulty": 2
+        },
+        {
+            "id": "10",
+            "question": "A stock's value increases by 10% during the first year, decreases by 20% in the second year, and increases by 30% in the third year. If the stock's original value is $200, what is its value at the end of the three years?",
+            "type": "multiple_choice",
+            "options": [
+                "$218.40",
+                "$204",
+                "$197.60",
+                "$216"
+            ],
+            "correct_answer": "$218.40",
+            "whyCorrectAnswer": "After increases and decrease, the value is 200 * 1.1 * 0.8 * 1.3 = $218.40.",
+            "difficulty": 5
+        },
+        {
+            "id": "11",
+            "question": "A computer accessory is discounted by 35% for a clearance sale. After the sale, the clearance price is further reduced by an additional discount of 25%. If the final sale price of the accessory is $97.50, what was its original price?",
+            "type": "multiple_choice",
+            "options": [
+                "$200",
+                "$180",
+                "$150",
+                "$120"
+            ],
+            "correct_answer": "$200",
+            "whyCorrectAnswer": "Let x be the original price, then after a 35% discount, it\u2019s x * 0.65, and after an additional 25% discount, it\u2019s 0.65x * 0.75 = $97.50. Solving gives x = $200.",
+            "difficulty": 5
+        }
+    ]
+}

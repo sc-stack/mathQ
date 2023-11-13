@@ -1,0 +1,158 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "question": "Hepatitis B antigen prevalence was studied in a population of 1,500 individuals, where 300 individuals were found to be carriers. What is the ratio of Hepatitis B antigen carriers to non-carriers? round your answer to the nearest hundredth",
+            "type": "multiple_choice",
+            "options": [
+                "a) 1:3",
+                "b) 3:1",
+                "c) 1:4",
+                "d) 1:5"
+            ],
+            "correct_answer": "c) 1:4",
+            "whyCorrectAnswer": "The question asks for the ratio of carriers to non-carriers so we should divide the number of carriers by the number of non-carriers. There are 1200 non-carriers (1500 total - 300 carriers). Hence, 300/1200 = 0.25 which rounds to 1:4.",
+            "difficulty": 2
+        },
+        {
+            "id": "2",
+            "question": "A new device's battery life lasts 5 hours for a 2 hour charge. What would be the battery life for a full 8 hour charge?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 10 hours",
+                "b) 20 hours",
+                "c) 30 hours",
+                "d) 40 hours"
+            ],
+            "correct_answer": "b) 20 hours",
+            "whyCorrectAnswer": "The device has a battery life to charge ratio of 5:2. Hence, for an 8 hour charge, the battery life would be (5/2) x 8 = 20 hours.",
+            "difficulty": 2
+        },
+        {
+            "id": "3",
+            "question": "If the ratio of the density of substance A to substance B is 3:8, and the density of substance B is 80g/cm\u00b3. What is the density of substance A?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 30 g/cm\u00b3",
+                "b) 240 g/cm\u00b3",
+                "c) 10 g/cm\u00b3",
+                "d) 120 g/cm\u00b3"
+            ],
+            "correct_answer": "a) 30 g/cm\u00b3",
+            "whyCorrectAnswer": "Since the ratio of the density of substance A to substance B is 3:8, if we take the density of substance B = 80 and divide by 8, we get 10, then we multiply by 3 to get substance A\u2019s density = 30 g/cm\u00b3.",
+            "difficulty": 4
+        },
+        {
+            "id": "4",
+            "question": "The ratio of ducks to geese in a certain region is 5:3. If there are 240 a total of ducks and geese, how many ducks are there?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 50",
+                "b) 100",
+                "c) 150",
+                "d) 200"
+            ],
+            "correct_answer": "c) 150",
+            "whyCorrectAnswer": "The total ratio is 5+3 = 8. Each ratio unit represents 240/8 = 30 birds. Hence, there are 5*30=150 ducks.",
+            "difficulty": 3
+        },
+        {
+            "id": "5",
+            "question": "A certain radioactive substance decays at a rate proportional to the amount present. If the ratio of the amount remaining to the initial amount is 1/8 after 3 days, what ratio will remain after 6 days?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 1/16",
+                "b) 1/32",
+                "c) 1/64",
+                "d) 1/128"
+            ],
+            "correct_answer": "c) 1/64",
+            "whyCorrectAnswer": "If after 3 days the ratio is 1/8, after 6 days (which is twice 3 days), the rate would decrease to (1/8)*(1/8) = 1/64.",
+            "difficulty": 4
+        },
+        {
+            "id": "6",
+            "question": "In a class, the ratio of males to females is 4:3. If there are 28 females, how many males are there?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 28",
+                "b) 32",
+                "c) 37",
+                "d) 43"
+            ],
+            "correct_answer": "c) 37",
+            "whyCorrectAnswer": "The ratio of males to females is 4:3. This means for every 3 females, there are 4 males. Hence, if there are 28 females, the number of males is (4/3) * 28 = 37 males.",
+            "difficulty": 3
+        },
+        {
+            "id": "7",
+            "question": "If the ratio of nitrogen gas to hydrogen gas in a sealed bottle is 7:2, and the total mass of the gases in the bottle is 210 grams. What is the mass of the nitrogen gas?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 150g",
+                "b) 160g",
+                "c) 175g",
+                "d) 180g"
+            ],
+            "correct_answer": "a) 150g",
+            "whyCorrectAnswer": "Total ratio is 7+2 = 9. Each ratio unit represents 210/9 = 23.3 grams. Hence, nitrogen gas mass is 7*23.3=162.1g rounded-off to 2sf gives 160g.",
+            "difficulty": 4
+        },
+        {
+            "id": "8",
+            "question": "A box contains pens, rulers and erasers in the ratio 8:5:2. If there are 40 erasers, how many rulers are in the box?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 20",
+                "b) 100",
+                "c) 150",
+                "d) 200"
+            ],
+            "correct_answer": "b) 100",
+            "whyCorrectAnswer": "Each ratio unit represents 40 pens/2 = 20. Hence, there are 5*20=100 rulers.",
+            "difficulty": 4
+        },
+        {
+            "id": "9",
+            "question": "The ratio of rice to water required in a rice cooker is 2:3. If 6 cups of water is required, how many cups of rice is needed?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 2",
+                "b) 4",
+                "c) 6",
+                "d) 8"
+            ],
+            "correct_answer": "b) 4",
+            "whyCorrectAnswer": "The ratio of rice to water is 2:3, for every 3 cups of water 2 cups of rice are needed. Hence, if 6 cups of water are needed, the amount of rice needed would be (2/3) * 6 = 4 cups.",
+            "difficulty": 3
+        },
+        {
+            "id": "10",
+            "question": "A carpenter has two types of wood: Oak and Pine, in a ratio of 7:9 respectively. If the total quantity of Oak and Pine is 640 kilograms, how much Oak does the carpenter have?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 280 kg",
+                "b) 300 kg",
+                "c) 320 kg",
+                "d) 360 kg"
+            ],
+            "correct_answer": "a) 280 kg",
+            "whyCorrectAnswer": "The total ratio of Oak to Pine is 7+9=16. Each ratio represents 640/16=40 kg. Hence, the amount of Oak is 7*40=280 kg.",
+            "difficulty": 4
+        },
+        {
+            "id": "11",
+            "question": "In a certain experiment, the ratio of particles absorbed by a surface to those not absorbed is found to be 3:7. If 4000 particles were used in the experiment, how many were absorbed?",
+            "type": "multiple_choice",
+            "options": [
+                "a) 1500",
+                "b) 2100",
+                "c) 3000",
+                "d) 3500"
+            ],
+            "correct_answer": "a) 1500",
+            "whyCorrectAnswer": "The total ratio is 3+7 = 10. Each ratio unit represents 4000/10 = 400 particles. Hence, there are 3*400=1200 particles absorbed.",
+            "difficulty": 3
+        }
+    ]
+}
