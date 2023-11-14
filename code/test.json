@@ -12,7 +12,11 @@
             ],
             "correct_answer": "a",
             "whyCorrectAnswer": "A because ......",
-            "difficulty": 3
+            "difficulty": 3,
+            "includesVisual": false,
+            "visualData": {
+                "html": ""
+            }
         },
         {
             "id": "2",
@@ -26,7 +30,11 @@
             ],
             "correct_answer": "c",
             "whyCorrectAnswer": "C because ......",
-            "difficulty": 5
+            "difficulty": 5,
+            "includesVisual": true,
+            "visualData": {
+                "html": "<table>...."
+            }
         }
     ]
 }

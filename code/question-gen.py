@@ -5,7 +5,7 @@ import openai
 import os
 from collections import defaultdict
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 with open("test.json", "r") as f:
     dataDict = json.load(f)
@@ -338,7 +338,11 @@ sample_questions_25 = [
 # ChatGPT GPT-4 Success Rate For Khan Academy Questions 
 # GPT-4 CodeGen Success Rate
 sample_questions_26 = [
-    
+    "HTML: <table><tr><td></td><td>Have chores</td><td>Do not have chores</td></tr><tr><td>Have a curfew</td><td>12</td><td>4</td></tr><tr><td>Do not have a curfew</td><td>8</td><td>10</td></tr></table>, Question: The table shows data on having a curfew on school nights and having assigned chores at home for the students in Alejandro's class. Which of the following statements about these students is true? Choose 1 answer: A) Students who have a curfew are more likely to have chores than students who do not have a curfew. B) Students who have a curfew are less likely to have chores than students who do not have a curfew. C) Students who have a curfew are equally likely to have chores as students who do not have a curfew. D) There is not enough information to determine if students who have a curfew are more likely to have chores than students who do not have a curfew.",
+    "HTML: <table><tr><td></td><td>Passed the exam</td><td>Did not pass the exam</td></tr><tr><td>Completed the review sheet</td><td>13</td><td>3</td></tr><tr><td>Did not complete the review sheet</td><td>4</td><td>9</td></tr></table>, Question: Khaled's eighth-grade class took an exam on two-way frequency tables. After grading the exams, Khaled's teacher made the two-way frequency table below to show the data on completing the exam review sheet and passing the exam. Which of the following statements about these students is true? A) Students who did not complete the review sheet were more likely to have passed the exam than students who did complete the review sheet. B) Students who did not complete the review sheet were less likely to have passed the exam than students who did complete the review sheet. C) Students who did not complete the review sheet were equally likely to have passed the exam as students who did complete the review sheet. D) There is not enough information to determine if students who did not complete the review sheet were more likely to have passed the exam than students who did complete the review sheet.",
+    "HTML: <table><tr><td></td><td>Less than $50,000</td><td>At least $50,000</td></tr><tr><td>Ages 44 and under</td><td>148</td><td>68</td></tr><tr><td>Ages 45 and under</td><td>38</td><td>94</td></tr></table>, Question: A sociologist polled a random collection of people and asked them their age and annual income. The results are shown in the table to the left. Which of the following is true about the people polled? A) People age 44 and under were more likely to earn at least $50,000 than people age 45 and up. B) People age 44 and under were less likely to earn at least $50,000 than people age 45 and up. C) People age 44 and under were equally likely to earn at least $50,000 as people age 45 and up. D) There is not enough information to determine if people age 44 and under were more likely to earn at least $50,000 than people age 45 and up.",
+    "HTML: <table><tr><td></td><td>Approved</td><td>Disapproved</td><td>No opinion</td></tr><tr><td>April 27, 2009</td><td>945</td><td>465</td><td>90</td></tr><tr><td>September 3, 2014</td><td>615</td><td>825</td><td>60</td></tr></table>, Question: Gallup polled a different random collection of 1,500 adults daily over a multi-year span and asked them whether they approve or disapprove of President Obama's performance in office. The two-way frequency table below shows the results on April 27, 2009, and September 3, 2014. Which of the following is true about adults polled during the study? A) Adults polled on April 27, 2009, were more likely to approve of President Obama's performance than adults polled on September 3, 2014. B) Adults polled on April 27, 2009, were less likely to approve of President Obama's performance than adults polled on September 3, 2014. C) Adults polled on April 27, 2009, were equally likely to approve of President Obama's performance as adults polled on September 3, 2014. D) There is not enough information to determine if adults polled on April 27, 2009, were more likely to approve of President Obama's performance than adults polled on September 3, 2014."
+    "HTML: <table><tr><td></td><td>Not at risk of obesity</td><td>At risk of obesity</td><td>Row total</td></tr><tr><td>Age 18 to 24</td><td>400</td><td>50</td><td>450</td></tr><tr><td>Age 25 to 44</td><td>180</td><td>70</td><td>250</td></tr><tr><td>Total</td><td>580</td><td>120</td><td>700</td></tr></table>, Question: The two-way table at left shows data on age and risk of obesity for all club basketball players aged 18 to 44 in Denver, Colorado. Rounded to the nearest hundredth, what is the probability that a player aged 25 to 44 is at risk of obesity?"
 ]
 
 # Scatterplots
@@ -499,7 +503,9 @@ sample_questions_40 = [
     "Which of the following complex numbers is equal to (7 - 2i) - (5 - 9i) for i = √(-1)?"
 ]
 
-category = additional_topics_in_math_categories[-1]
+category = problem_solving_and_data_analysis_categories[3]
+
+print(f"""Category is {category}""")
 
 system_msg = f""" You are an AI agent designed to generate SAT level difficulty math questions for a given category of math. "
 Ensure that these questions cover the breadth of the passage and that they can help augment SAT test taker's reading comprehension ability.
@@ -509,7 +515,8 @@ I want a format similar to {newString} and make sure it has the right amount of 
 
 user_content1 = f"""Given the category: {category}, generate a suite of 11 SAT Math questions as well as 4-5 answer choices for each question. Return the questions,
 their answer choices, the correct answer choice, a brief rationale for the correct answer, and an estimated difficulty score for each question. 
-The following represents a list of sample questions that you can use to generate new questions from: {sample_questions_40}. Make the questions harder than the list of sample questions.
+The following represents a list of sample questions that you can use to generate new questions from: {sample_questions_26}. Make the questions harder than the list of sample questions.
+If the questions include visual data such as HTML or points, ensure that the new questions generated differ in terms of content and data points for the visual. 
 """
 
 # user_content2 = f"""
@@ -537,7 +544,7 @@ def generate_math_question():
     response_content = completion.choices[0]['message']['content']
     parsed_content = json.loads(response_content)  # Parsing string to dictionary
 
-    with open("answers/sample_answers_40.json", "w") as f:
+    with open("answers/sample_answers_26.json", "w") as f:
         json.dump(parsed_content, f, indent=4)  # Dumping dictionary with formatting
 
     return json.dumps(parsed_content, indent=4)
